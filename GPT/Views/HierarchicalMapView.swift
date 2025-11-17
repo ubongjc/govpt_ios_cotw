@@ -110,7 +110,7 @@ struct HierarchicalMapView: View {
                     }
                 }
             }
-            .navigationTitle(viewModel.currentRegion?.name ?? "GovPT")
+            .navigationTitle(viewModel.currentRegion?.name ?? "GPT")
             .navigationBarTitleDisplayMode(.large)
             .sheet(isPresented: $viewModel.showingCountryView) {
                 if let region = viewModel.selectedRegion {

@@ -2,7 +2,7 @@
 import json
 
 # Read the existing seed data
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'r') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # US Governor Promises with Market Impact
@@ -243,5 +243,5 @@ print(f"✅ Added {len(us_governor_promises)} US governor promises with market i
 print(f"Total promises: {len(data['promises'])}")
 
 # Write back to file
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'w') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)

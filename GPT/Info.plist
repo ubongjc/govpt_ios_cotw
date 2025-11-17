@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>GovPT uses your location to show relevant promises for your region.</string>
+	<string>GPT uses your location to show relevant promises for your region.</string>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>

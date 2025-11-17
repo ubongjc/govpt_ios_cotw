@@ -1,4 +1,4 @@
-# Government Promises Tracker (GovPT)
+# Government Promises Tracker (GPT)
 
 A sleek iOS app that lets anyone drill down from a world map → continent → country → state/province → city and see official promises from the current officeholder, with verifiable primary-source proof and a transparent fulfillment score.
 
@@ -22,7 +22,7 @@ A sleek iOS app that lets anyone drill down from a world map → continent → c
 ## Project Structure
 
 ```
-GovPT/
+GPT/
 ├── Models/              # Data models (Region, Officeholder, Promise, etc.)
 ├── Views/               # SwiftUI views
 │   ├── HomeMapView.swift
@@ -131,7 +131,7 @@ The app includes a unique feature that maps government promises to potentially a
 - Swift 5.10+
 
 ### Steps
-1. Open `GovPT.xcodeproj` in Xcode
+1. Open `GPT.xcodeproj` in Xcode
 2. Wait for Swift Package Manager to resolve dependencies (GRDB.swift)
 3. Select a simulator or device
 4. Build and run (⌘R)

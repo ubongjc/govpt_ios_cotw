@@ -1,4 +1,4 @@
-Government Promises Tracker (GovPT) — plan.md
+Government Promises Tracker (GPT) — plan.md
 0) One-liner
 
 A sleek iOS app that lets anyone drill down from a world map → continent → country → state/province → city and see official promises from the current officeholder, with verifiable primary-source proof and a transparent fulfillment score.
@@ -305,7 +305,7 @@ If a primary source is missing → reject with a reason.
 
 Prompt template (extraction)
 
-You are extracting official political promises for GovPT (Government Promises Tracker).
+You are extracting official political promises for GPT (Government Promises Tracker).
 Rules: Use only primary sources (official party/government sites, official PDFs, official candidate channels). Quote verbatim. If any item lacks a primary source, return an error.
 Input:
 

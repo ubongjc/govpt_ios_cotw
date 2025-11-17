@@ -2,7 +2,7 @@
 import json
 
 # Read the existing seed data
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'r') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # Add all 16 German minister-presidents
@@ -204,7 +204,7 @@ german_leaders = [
 data['officeholders'].extend(german_leaders)
 
 # Write back to the file
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'w') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print(f"✅ Successfully added {len(german_leaders)} German minister-presidents")

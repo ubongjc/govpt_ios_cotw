@@ -27,7 +27,7 @@
 		932EA5C4204A3CDD3DCEA6E2 /* LeaderMarketImpactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF24A0586CAF7161B7F50A /* LeaderMarketImpactView.swift */; };
 		93A1ACFA8FB79DF72BD9D5EB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F30B196B7EFFA4C5FA3A62 /* DatabaseManager.swift */; };
 		93C20C2B25DC249E0AEF357F /* GeoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CB7E8A18A2896BAA2C0642 /* GeoService.swift */; };
-		AA0000010000000000000001 /* GovPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000020000000000000001 /* GovPTApp.swift */; };
+		AA0000010000000000000001 /* GPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000020000000000000001 /* GPTApp.swift */; };
 		AA0000030000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000040000000000000001 /* ContentView.swift */; };
 		AA0000050000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000060000000000000001 /* Assets.xcassets */; };
 		C038E470AAD64E862667FFE8 /* HierarchicalMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DD2A19D3CE53ED8AA462F /* HierarchicalMapView.swift */; };
@@ -54,10 +54,10 @@
 		794774109E6ACF326C85A42F /* Evidence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Evidence.swift; sourceTree = "<group>"; };
 		8A4A6A511331189D26F56F8D /* SearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		9DF563756614458A4FD53382 /* HomeMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeMapView.swift; sourceTree = "<group>"; };
-		AA0000020000000000000001 /* GovPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovPTApp.swift; sourceTree = "<group>"; };
+		AA0000020000000000000001 /* GPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTApp.swift; sourceTree = "<group>"; };
 		AA0000040000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA0000060000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA0000070000000000000001 /* GovPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000070000000000000001 /* GPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA0000080000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD5E5F16824629AE5B8CF5EE /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B00B7741939F5E8B2A17A391 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -94,15 +94,15 @@
 		AA000000A000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				AA000000B000000000000001 /* GovPT */,
+				AA000000B000000000000001 /* GPT */,
 				AA000000C000000000000001 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA000000B000000000000001 /* GovPT */ = {
+		AA000000B000000000000001 /* GPT */ = {
 			isa = PBXGroup;
 			children = (
-				AA0000020000000000000001 /* GovPTApp.swift */,
+				AA0000020000000000000001 /* GPTApp.swift */,
 				AA0000040000000000000001 /* ContentView.swift */,
 				AA000000D000000000000001 /* Models */,
 				AA000000E000000000000001 /* Views */,
@@ -113,13 +113,13 @@
 				05DA8D268D014E0728F35D80 /* Resources */,
 				FE3F51102A791996C3667C71 /* Managers */,
 			);
-			path = GovPT;
+			path = GPT;
 			sourceTree = "<group>";
 		};
 		AA000000C000000000000001 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA0000070000000000000001 /* GovPT.app */,
+				AA0000070000000000000001 /* GPT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA0000011000000000000001 /* GovPT */ = {
+		AA0000011000000000000001 /* GPT */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA0000012000000000000001 /* Build configuration list for PBXNativeTarget "GovPT" */;
+			buildConfigurationList = AA0000012000000000000001 /* Build configuration list for PBXNativeTarget "GPT" */;
 			buildPhases = (
 				AA0000013000000000000001 /* Sources */,
 				AA0000090000000000000001 /* Frameworks */,
@@ -199,12 +199,12 @@
 			);
 			dependencies = (
 			);
-			name = GovPT;
+			name = GPT;
 			packageProductDependencies = (
 				73AE38E4730B59185F7C755E /* GRDB */,
 			);
-			productName = GovPT;
-			productReference = AA0000070000000000000001 /* GovPT.app */;
+			productName = GPT;
+			productReference = AA0000070000000000000001 /* GPT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA0000016000000000000001 /* Build configuration list for PBXProject "GovPT" */;
+			buildConfigurationList = AA0000016000000000000001 /* Build configuration list for PBXProject "GPT" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA0000011000000000000001 /* GovPT */,
+				AA0000011000000000000001 /* GPT */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA0000030000000000000001 /* ContentView.swift in Sources */,
-				AA0000010000000000000001 /* GovPTApp.swift in Sources */,
+				AA0000010000000000000001 /* GPTApp.swift in Sources */,
 				93A1ACFA8FB79DF72BD9D5EB /* DatabaseManager.swift in Sources */,
 				792C08B81AD55C978A377E79 /* Region.swift in Sources */,
 				3D3AD8467805964E67B8F01D /* Officeholder.swift in Sources */,
@@ -422,10 +422,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GovPT/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GPT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GovPT/Info.plist;
+				INFOPLIST_FILE = GPT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,10 +451,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GovPT/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GPT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GovPT/Info.plist;
+				INFOPLIST_FILE = GPT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA0000012000000000000001 /* Build configuration list for PBXNativeTarget "GovPT" */ = {
+		AA0000012000000000000001 /* Build configuration list for PBXNativeTarget "GPT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA000001A000000000000001 /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA0000016000000000000001 /* Build configuration list for PBXProject "GovPT" */ = {
+		AA0000016000000000000001 /* Build configuration list for PBXProject "GPT" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA0000018000000000000001 /* Debug */,

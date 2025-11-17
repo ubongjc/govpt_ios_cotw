@@ -6,7 +6,7 @@ This script generates comprehensive seed data for all countries, states, and cit
 Run this periodically to update with current officeholders and election data.
 
 Usage:
-    python3 generate_world_data.py > ../GovPT/Resources/seed_data.json
+    python3 generate_world_data.py > ../GPT/Resources/seed_data.json
 """
 
 import json

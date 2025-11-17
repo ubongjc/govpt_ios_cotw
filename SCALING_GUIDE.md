@@ -137,7 +137,7 @@ This is manageable for:
 ### Immediate (This Week):
 ```bash
 # 1. Extend seed_data.json with all 195 countries
-python3 Scripts/generate_world_data.py > GovPT/Resources/seed_data_full.json
+python3 Scripts/generate_world_data.py > GPT/Resources/seed_data_full.json
 
 # 2. Add US states (50)
 # 3. Add Canadian provinces (13)

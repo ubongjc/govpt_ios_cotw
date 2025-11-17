@@ -4,7 +4,7 @@ require 'xcodeproj'
 puts "🔧 Fixing resource file path..."
 puts ""
 
-project_path = 'GovPT.xcodeproj'
+project_path = 'GPT.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 
 # Find seed_data.json reference
@@ -20,7 +20,7 @@ if seed_ref
   puts "Found seed_data.json reference"
   puts "Current path: #{seed_ref.real_path}"
 
-  # The file is at GovPT/Resources/seed_data.json
+  # The file is at GPT/Resources/seed_data.json
   # But the reference should be relative to the Resources group
   seed_ref.path = 'seed_data.json'
   seed_ref.source_tree = '<group>'

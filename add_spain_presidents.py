@@ -2,7 +2,7 @@
 import json
 
 # Read the existing seed data
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'r') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # Spanish Autonomous Community and City Presidents (2024-2025)
@@ -187,5 +187,5 @@ print(f"✅ Added {len(spanish_presidents)} Spanish autonomous community/city pr
 print(f"Total officeholders: {len(data['officeholders'])}")
 
 # Write back to file
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'w') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)

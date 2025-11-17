@@ -178,7 +178,7 @@ To test the app:
 1. **Open in Xcode**:
    ```bash
    cd /Users/ubongjosiah/gpt_iphone
-   open GovPT.xcodeproj
+   open GPT.xcodeproj
    ```
 
 2. **Build & Run**:
@@ -260,8 +260,8 @@ No CocoaPods or Carthage needed.
 ## Architecture
 
 ```
-GovPT/
-├── GovPTApp.swift              # App entry point
+GPT/
+├── GPTApp.swift              # App entry point
 ├── ContentView.swift         # Main tab view
 ├── Models/                   # Data models (Codable + GRDB)
 ├── Views/                    # SwiftUI views

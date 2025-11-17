@@ -2,7 +2,7 @@
 import json
 
 # Read current seed data
-with open('GovPT/Resources/seed_data.json', 'r') as f:
+with open('GPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # Add more promises including one for Doug Ford
@@ -393,7 +393,7 @@ print(f"Total policy tags: {len(data['policyTags'])}")
 print(f"Total industry impacts: {len(data['promiseIndustryImpacts'])}")
 
 # Save updated data
-with open('GovPT/Resources/seed_data.json', 'w') as f:
+with open('GPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2)
 
 print("\n✅ Successfully added Markets data and Doug Ford promises!")

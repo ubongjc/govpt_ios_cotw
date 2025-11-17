@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 
 # Read current seed data
-with open('GovPT/Resources/seed_data.json', 'r') as f:
+with open('GPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # Update US President to Trump (inaugurated January 20, 2025)
@@ -156,7 +156,7 @@ print(f"- Total officeholders: {len(data['officeholders'])}")
 print(f"- Total promises: {len(data['promises'])}")
 
 # Save updated data
-with open('GovPT/Resources/seed_data.json', 'w') as f:
+with open('GPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2)
 
 print("\n✅ Successfully updated to 2025 data!")

@@ -2,7 +2,7 @@
 import json
 
 # Read the existing seed data
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'r') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # Fix all officeholders with null startDate
@@ -24,7 +24,7 @@ print(f"\n✅ Fixed {fixed_count} officeholders with null startDate")
 print(f"Total officeholders: {len(data['officeholders'])}")
 
 # Write back to file
-with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'w') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print("✅ Updated seed_data.json")

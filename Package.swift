@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "GovPT",
+    name: "GPT",
     platforms: [
         .iOS(.v17)
     ],
     products: [
         .library(
-            name: "GovPT",
-            targets: ["GovPT"])
+            name: "GPT",
+            targets: ["GPT"])
     ],
     dependencies: [
         .package(url: "https://github.com/groue/GRDB.swift.git", from: "6.0.0")
     ],
     targets: [
         .target(
-            name: "GovPT",
+            name: "GPT",
             dependencies: [
                 .product(name: "GRDB", package: "GRDB.swift")
             ]

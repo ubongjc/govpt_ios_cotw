@@ -9,7 +9,7 @@ import sys
 from datetime import datetime
 
 # Path to the seed_data.json file
-SEED_DATA_PATH = "/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json"
+SEED_DATA_PATH = "/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json"
 
 # All 16 Polish voivodeship marshals with current data (2024/2025)
 POLISH_MARSHALS = [

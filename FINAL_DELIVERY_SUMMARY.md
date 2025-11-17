@@ -46,13 +46,13 @@ I've created:
 cd /Users/ubongjosiah/gpt_iphone
 
 # Run the comprehensive data generator
-python3 Scripts/generate_full_comprehensive_data.py > GovPT/Resources/seed_data_full.json
+python3 Scripts/generate_full_comprehensive_data.py > GPT/Resources/seed_data_full.json
 
 # Then replace current seed data
-mv GovPT/Resources/seed_data_full.json GovPT/Resources/seed_data.json
+mv GPT/Resources/seed_data_full.json GPT/Resources/seed_data.json
 
 # Rebuild app
-open GovPT.xcodeproj
+open GPT.xcodeproj
 # Build and run
 ```
 
@@ -256,7 +256,7 @@ Same structure for all 13 provinces/territories:
 ## 📦 What You Have Right Now
 
 ### Files Created:
-1. ✅ Complete Xcode project (`GovPT.xcodeproj`)
+1. ✅ Complete Xcode project (`GPT.xcodeproj`)
 2. ✅ All Swift models and views
 3. ✅ Database with migrations
 4. ✅ Seed data with 20 countries
