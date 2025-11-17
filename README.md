@@ -1,4 +1,4 @@
-# Government Promises Tracker (GPT)
+# Government Promises Tracker (GovPT)
 
 A sleek iOS app that lets anyone drill down from a world map → continent → country → state/province → city and see official promises from the current officeholder, with verifiable primary-source proof and a transparent fulfillment score.
 

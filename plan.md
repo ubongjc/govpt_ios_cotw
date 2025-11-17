@@ -1,4 +1,4 @@
-Government Promises Tracker (GPT) — plan.md
+Government Promises Tracker (GovPT) — plan.md
 0) One-liner
 
 A sleek iOS app that lets anyone drill down from a world map → continent → country → state/province → city and see official promises from the current officeholder, with verifiable primary-source proof and a transparent fulfillment score.
