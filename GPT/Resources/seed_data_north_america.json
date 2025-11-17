@@ -1,0 +1,1454 @@
+{
+  "regions": [
+    {
+      "regionId": "cont:north_america",
+      "name": "North America",
+      "isoCode": "NA",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": 54.5260,
+      "longitude": -105.2551
+    },
+    {
+      "regionId": "country:us",
+      "name": "United States",
+      "isoCode": "US",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 37.0902,
+      "longitude": -95.7129
+    },
+    {
+      "regionId": "country:ca",
+      "name": "Canada",
+      "isoCode": "CA",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 56.1304,
+      "longitude": -106.3468
+    },
+    {
+      "regionId": "country:mx",
+      "name": "Mexico",
+      "isoCode": "MX",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 23.6345,
+      "longitude": -102.5528
+    },
+    {
+      "regionId": "country:gt",
+      "name": "Guatemala",
+      "isoCode": "GT",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 15.7835,
+      "longitude": -90.2308
+    },
+    {
+      "regionId": "country:bz",
+      "name": "Belize",
+      "isoCode": "BZ",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 17.1899,
+      "longitude": -88.4976
+    },
+    {
+      "regionId": "country:sv",
+      "name": "El Salvador",
+      "isoCode": "SV",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 13.7942,
+      "longitude": -88.8965
+    },
+    {
+      "regionId": "country:hn",
+      "name": "Honduras",
+      "isoCode": "HN",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 15.2000,
+      "longitude": -86.2419
+    },
+    {
+      "regionId": "country:ni",
+      "name": "Nicaragua",
+      "isoCode": "NI",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 12.8654,
+      "longitude": -85.2072
+    },
+    {
+      "regionId": "country:cr",
+      "name": "Costa Rica",
+      "isoCode": "CR",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 9.7489,
+      "longitude": -83.7534
+    },
+    {
+      "regionId": "country:pa",
+      "name": "Panama",
+      "isoCode": "PA",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 8.5380,
+      "longitude": -80.7821
+    },
+    {
+      "regionId": "country:cu",
+      "name": "Cuba",
+      "isoCode": "CU",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 21.5218,
+      "longitude": -77.7812
+    },
+    {
+      "regionId": "country:jm",
+      "name": "Jamaica",
+      "isoCode": "JM",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 18.1096,
+      "longitude": -77.2975
+    },
+    {
+      "regionId": "country:ht",
+      "name": "Haiti",
+      "isoCode": "HT",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 18.9712,
+      "longitude": -72.2852
+    },
+    {
+      "regionId": "country:do",
+      "name": "Dominican Republic",
+      "isoCode": "DO",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 18.7357,
+      "longitude": -70.1627
+    },
+    {
+      "regionId": "country:bs",
+      "name": "Bahamas",
+      "isoCode": "BS",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 25.0343,
+      "longitude": -77.3963
+    },
+    {
+      "regionId": "country:bb",
+      "name": "Barbados",
+      "isoCode": "BB",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 13.1939,
+      "longitude": -59.5432
+    },
+    {
+      "regionId": "country:tt",
+      "name": "Trinidad and Tobago",
+      "isoCode": "TT",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 10.6918,
+      "longitude": -61.2225
+    },
+    {
+      "regionId": "state:us:al",
+      "name": "Alabama",
+      "isoCode": "AL",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    {
+      "regionId": "state:us:ak",
+      "name": "Alaska",
+      "isoCode": "AK",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 64.0685,
+      "longitude": -152.2782
+    },
+    {
+      "regionId": "state:us:az",
+      "name": "Arizona",
+      "isoCode": "AZ",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 34.0489,
+      "longitude": -111.0937
+    },
+    {
+      "regionId": "state:us:ar",
+      "name": "Arkansas",
+      "isoCode": "AR",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.2010,
+      "longitude": -91.8318
+    },
+    {
+      "regionId": "state:us:ca",
+      "name": "California",
+      "isoCode": "CA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 36.7783,
+      "longitude": -119.4179
+    },
+    {
+      "regionId": "state:us:co",
+      "name": "Colorado",
+      "isoCode": "CO",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.5501,
+      "longitude": -105.7821
+    },
+    {
+      "regionId": "state:us:ct",
+      "name": "Connecticut",
+      "isoCode": "CT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.6032,
+      "longitude": -73.0877
+    },
+    {
+      "regionId": "state:us:de",
+      "name": "Delaware",
+      "isoCode": "DE",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 38.9108,
+      "longitude": -75.5277
+    },
+    {
+      "regionId": "state:us:fl",
+      "name": "Florida",
+      "isoCode": "FL",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 27.6648,
+      "longitude": -81.5158
+    },
+    {
+      "regionId": "state:us:ga",
+      "name": "Georgia",
+      "isoCode": "GA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 32.1656,
+      "longitude": -82.9001
+    },
+    {
+      "regionId": "state:us:hi",
+      "name": "Hawaii",
+      "isoCode": "HI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 19.8968,
+      "longitude": -155.5828
+    },
+    {
+      "regionId": "state:us:id",
+      "name": "Idaho",
+      "isoCode": "ID",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 44.0682,
+      "longitude": -114.7420
+    },
+    {
+      "regionId": "state:us:il",
+      "name": "Illinois",
+      "isoCode": "IL",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.6331,
+      "longitude": -89.3985
+    },
+    {
+      "regionId": "state:us:in",
+      "name": "Indiana",
+      "isoCode": "IN",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.2672,
+      "longitude": -86.1349
+    },
+    {
+      "regionId": "state:us:ia",
+      "name": "Iowa",
+      "isoCode": "IA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.8780,
+      "longitude": -93.0977
+    },
+    {
+      "regionId": "state:us:ks",
+      "name": "Kansas",
+      "isoCode": "KS",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.0119,
+      "longitude": -98.4842
+    },
+    {
+      "regionId": "state:us:ky",
+      "name": "Kentucky",
+      "isoCode": "KY",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 37.8393,
+      "longitude": -84.2700
+    },
+    {
+      "regionId": "state:us:la",
+      "name": "Louisiana",
+      "isoCode": "LA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 30.9843,
+      "longitude": -91.9623
+    },
+    {
+      "regionId": "state:us:me",
+      "name": "Maine",
+      "isoCode": "ME",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 45.2538,
+      "longitude": -69.4455
+    },
+    {
+      "regionId": "state:us:md",
+      "name": "Maryland",
+      "isoCode": "MD",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.0458,
+      "longitude": -76.6413
+    },
+    {
+      "regionId": "state:us:ma",
+      "name": "Massachusetts",
+      "isoCode": "MA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 42.4072,
+      "longitude": -71.3824
+    },
+    {
+      "regionId": "state:us:mi",
+      "name": "Michigan",
+      "isoCode": "MI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 44.3148,
+      "longitude": -85.6024
+    },
+    {
+      "regionId": "state:us:mn",
+      "name": "Minnesota",
+      "isoCode": "MN",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 46.7296,
+      "longitude": -94.6859
+    },
+    {
+      "regionId": "state:us:ms",
+      "name": "Mississippi",
+      "isoCode": "MS",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 32.3547,
+      "longitude": -89.3985
+    },
+    {
+      "regionId": "state:us:mo",
+      "name": "Missouri",
+      "isoCode": "MO",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 37.9643,
+      "longitude": -91.8318
+    },
+    {
+      "regionId": "state:us:mt",
+      "name": "Montana",
+      "isoCode": "MT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 46.8797,
+      "longitude": -110.3626
+    },
+    {
+      "regionId": "state:us:ne",
+      "name": "Nebraska",
+      "isoCode": "NE",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.4925,
+      "longitude": -99.9018
+    },
+    {
+      "regionId": "state:us:nv",
+      "name": "Nevada",
+      "isoCode": "NV",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 38.8026,
+      "longitude": -116.4194
+    },
+    {
+      "regionId": "state:us:nh",
+      "name": "New Hampshire",
+      "isoCode": "NH",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.1939,
+      "longitude": -71.5724
+    },
+    {
+      "regionId": "state:us:nj",
+      "name": "New Jersey",
+      "isoCode": "NJ",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.0583,
+      "longitude": -74.4057
+    },
+    {
+      "regionId": "state:us:nm",
+      "name": "New Mexico",
+      "isoCode": "NM",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 34.5199,
+      "longitude": -105.8701
+    },
+    {
+      "regionId": "state:us:ny",
+      "name": "New York",
+      "isoCode": "NY",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.2994,
+      "longitude": -74.2179
+    },
+    {
+      "regionId": "state:us:nc",
+      "name": "North Carolina",
+      "isoCode": "NC",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.7596,
+      "longitude": -79.0193
+    },
+    {
+      "regionId": "state:us:nd",
+      "name": "North Dakota",
+      "isoCode": "ND",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 47.5515,
+      "longitude": -101.0020
+    },
+    {
+      "regionId": "state:us:oh",
+      "name": "Ohio",
+      "isoCode": "OH",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.4173,
+      "longitude": -82.9071
+    },
+    {
+      "regionId": "state:us:ok",
+      "name": "Oklahoma",
+      "isoCode": "OK",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.0078,
+      "longitude": -97.0929
+    },
+    {
+      "regionId": "state:us:or",
+      "name": "Oregon",
+      "isoCode": "OR",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.8041,
+      "longitude": -120.5542
+    },
+    {
+      "regionId": "state:us:pa",
+      "name": "Pennsylvania",
+      "isoCode": "PA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.2033,
+      "longitude": -77.1945
+    },
+    {
+      "regionId": "state:us:ri",
+      "name": "Rhode Island",
+      "isoCode": "RI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.5801,
+      "longitude": -71.4774
+    },
+    {
+      "regionId": "state:us:sc",
+      "name": "South Carolina",
+      "isoCode": "SC",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 33.8361,
+      "longitude": -81.1637
+    },
+    {
+      "regionId": "state:us:sd",
+      "name": "South Dakota",
+      "isoCode": "SD",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.9695,
+      "longitude": -99.9018
+    },
+    {
+      "regionId": "state:us:tn",
+      "name": "Tennessee",
+      "isoCode": "TN",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.5175,
+      "longitude": -86.5804
+    },
+    {
+      "regionId": "state:us:tx",
+      "name": "Texas",
+      "isoCode": "TX",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 31.9686,
+      "longitude": -99.9018
+    },
+    {
+      "regionId": "state:us:ut",
+      "name": "Utah",
+      "isoCode": "UT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.3210,
+      "longitude": -111.0937
+    },
+    {
+      "regionId": "state:us:vt",
+      "name": "Vermont",
+      "isoCode": "VT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 44.5588,
+      "longitude": -72.5778
+    },
+    {
+      "regionId": "state:us:va",
+      "name": "Virginia",
+      "isoCode": "VA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 37.4316,
+      "longitude": -78.6569
+    },
+    {
+      "regionId": "state:us:wa",
+      "name": "Washington",
+      "isoCode": "WA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 47.7511,
+      "longitude": -120.7401
+    },
+    {
+      "regionId": "state:us:wv",
+      "name": "West Virginia",
+      "isoCode": "WV",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 38.5976,
+      "longitude": -80.4549
+    },
+    {
+      "regionId": "state:us:wi",
+      "name": "Wisconsin",
+      "isoCode": "WI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.7844,
+      "longitude": -88.7879
+    },
+    {
+      "regionId": "state:us:wy",
+      "name": "Wyoming",
+      "isoCode": "WY",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.0760,
+      "longitude": -107.2903
+    },
+    {
+      "regionId": "province:ca:ab",
+      "name": "Alberta",
+      "isoCode": "AB",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.9333,
+      "longitude": -116.5765
+    },
+    {
+      "regionId": "province:ca:bc",
+      "name": "British Columbia",
+      "isoCode": "BC",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.7267,
+      "longitude": -127.6476
+    },
+    {
+      "regionId": "province:ca:mb",
+      "name": "Manitoba",
+      "isoCode": "MB",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.7609,
+      "longitude": -98.8139
+    },
+    {
+      "regionId": "province:ca:nb",
+      "name": "New Brunswick",
+      "isoCode": "NB",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 46.5653,
+      "longitude": -66.4619
+    },
+    {
+      "regionId": "province:ca:nl",
+      "name": "Newfoundland and Labrador",
+      "isoCode": "NL",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.1355,
+      "longitude": -57.6604
+    },
+    {
+      "regionId": "province:ca:nt",
+      "name": "Northwest Territories",
+      "isoCode": "NT",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 64.8255,
+      "longitude": -124.8457
+    },
+    {
+      "regionId": "province:ca:ns",
+      "name": "Nova Scotia",
+      "isoCode": "NS",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 44.6820,
+      "longitude": -63.7443
+    },
+    {
+      "regionId": "province:ca:nu",
+      "name": "Nunavut",
+      "isoCode": "NU",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 70.2998,
+      "longitude": -83.1076
+    },
+    {
+      "regionId": "province:ca:on",
+      "name": "Ontario",
+      "isoCode": "ON",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 51.2538,
+      "longitude": -85.3232
+    },
+    {
+      "regionId": "province:ca:pe",
+      "name": "Prince Edward Island",
+      "isoCode": "PE",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 46.5107,
+      "longitude": -63.4168
+    },
+    {
+      "regionId": "province:ca:qc",
+      "name": "Quebec",
+      "isoCode": "QC",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 52.9399,
+      "longitude": -73.5491
+    },
+    {
+      "regionId": "province:ca:sk",
+      "name": "Saskatchewan",
+      "isoCode": "SK",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 52.9399,
+      "longitude": -106.4509
+    },
+    {
+      "regionId": "province:ca:yt",
+      "name": "Yukon",
+      "isoCode": "YT",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 64.2823,
+      "longitude": -135.0000
+    },
+    {
+      "regionId": "city:us:nyc",
+      "name": "New York City",
+      "isoCode": "NYC",
+      "type": "city",
+      "parentRegionId": "state:us:ny",
+      "latitude": 40.7128,
+      "longitude": -74.0060
+    },
+    {
+      "regionId": "city:us:la",
+      "name": "Los Angeles",
+      "isoCode": "LA",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    {
+      "regionId": "city:us:chi",
+      "name": "Chicago",
+      "isoCode": "CHI",
+      "type": "city",
+      "parentRegionId": "state:us:il",
+      "latitude": 41.8781,
+      "longitude": -87.6298
+    },
+    {
+      "regionId": "city:us:hou",
+      "name": "Houston",
+      "isoCode": "HOU",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 29.7604,
+      "longitude": -95.3698
+    },
+    {
+      "regionId": "city:us:phx",
+      "name": "Phoenix",
+      "isoCode": "PHX",
+      "type": "city",
+      "parentRegionId": "state:us:az",
+      "latitude": 33.4484,
+      "longitude": -112.0740
+    },
+    {
+      "regionId": "city:us:phi",
+      "name": "Philadelphia",
+      "isoCode": "PHI",
+      "type": "city",
+      "parentRegionId": "state:us:pa",
+      "latitude": 39.9526,
+      "longitude": -75.1652
+    },
+    {
+      "regionId": "city:us:san",
+      "name": "San Antonio",
+      "isoCode": "SAN",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 29.4241,
+      "longitude": -98.4936
+    },
+    {
+      "regionId": "city:us:sd",
+      "name": "San Diego",
+      "isoCode": "SD",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 32.7157,
+      "longitude": -117.1611
+    },
+    {
+      "regionId": "city:us:dal",
+      "name": "Dallas",
+      "isoCode": "DAL",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 32.7767,
+      "longitude": -96.7970
+    },
+    {
+      "regionId": "city:us:sj",
+      "name": "San Jose",
+      "isoCode": "SJ",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 37.3382,
+      "longitude": -121.8863
+    },
+    {
+      "regionId": "city:us:aus",
+      "name": "Austin",
+      "isoCode": "AUS",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 30.2672,
+      "longitude": -97.7431
+    },
+    {
+      "regionId": "city:us:jax",
+      "name": "Jacksonville",
+      "isoCode": "JAX",
+      "type": "city",
+      "parentRegionId": "state:us:fl",
+      "latitude": 30.3322,
+      "longitude": -81.6557
+    },
+    {
+      "regionId": "city:us:sf",
+      "name": "San Francisco",
+      "isoCode": "SF",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    {
+      "regionId": "city:us:col",
+      "name": "Columbus",
+      "isoCode": "COL",
+      "type": "city",
+      "parentRegionId": "state:us:oh",
+      "latitude": 39.9612,
+      "longitude": -82.9988
+    },
+    {
+      "regionId": "city:us:den",
+      "name": "Denver",
+      "isoCode": "DEN",
+      "type": "city",
+      "parentRegionId": "state:us:co",
+      "latitude": 39.7392,
+      "longitude": -104.9903
+    },
+    {
+      "regionId": "city:us:sea",
+      "name": "Seattle",
+      "isoCode": "SEA",
+      "type": "city",
+      "parentRegionId": "state:us:wa",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    {
+      "regionId": "city:us:bos",
+      "name": "Boston",
+      "isoCode": "BOS",
+      "type": "city",
+      "parentRegionId": "state:us:ma",
+      "latitude": 42.3601,
+      "longitude": -71.0589
+    },
+    {
+      "regionId": "city:us:dc",
+      "name": "Washington D.C.",
+      "isoCode": "DC",
+      "type": "city",
+      "parentRegionId": "country:us",
+      "latitude": 38.9072,
+      "longitude": -77.0369
+    },
+    {
+      "regionId": "city:us:mia",
+      "name": "Miami",
+      "isoCode": "MIA",
+      "type": "city",
+      "parentRegionId": "state:us:fl",
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    },
+    {
+      "regionId": "city:us:atl",
+      "name": "Atlanta",
+      "isoCode": "ATL",
+      "type": "city",
+      "parentRegionId": "state:us:ga",
+      "latitude": 33.7490,
+      "longitude": -84.3880
+    },
+    {
+      "regionId": "city:ca:tor",
+      "name": "Toronto",
+      "isoCode": "TOR",
+      "type": "city",
+      "parentRegionId": "province:ca:on",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    {
+      "regionId": "city:ca:mtl",
+      "name": "Montreal",
+      "isoCode": "MTL",
+      "type": "city",
+      "parentRegionId": "province:ca:qc",
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    },
+    {
+      "regionId": "city:ca:van",
+      "name": "Vancouver",
+      "isoCode": "VAN",
+      "type": "city",
+      "parentRegionId": "province:ca:bc",
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    },
+    {
+      "regionId": "city:ca:cal",
+      "name": "Calgary",
+      "isoCode": "CAL",
+      "type": "city",
+      "parentRegionId": "province:ca:ab",
+      "latitude": 51.0447,
+      "longitude": -114.0719
+    },
+    {
+      "regionId": "city:ca:edm",
+      "name": "Edmonton",
+      "isoCode": "EDM",
+      "type": "city",
+      "parentRegionId": "province:ca:ab",
+      "latitude": 53.5461,
+      "longitude": -113.4938
+    },
+    {
+      "regionId": "city:ca:ott",
+      "name": "Ottawa",
+      "isoCode": "OTT",
+      "type": "city",
+      "parentRegionId": "province:ca:on",
+      "latitude": 45.4215,
+      "longitude": -75.6972
+    },
+    {
+      "regionId": "city:mx:mex",
+      "name": "Mexico City",
+      "isoCode": "MEX",
+      "type": "city",
+      "parentRegionId": "country:mx",
+      "latitude": 19.4326,
+      "longitude": -99.1332
+    },
+    {
+      "regionId": "city:mx:gdl",
+      "name": "Guadalajara",
+      "isoCode": "GDL",
+      "type": "city",
+      "parentRegionId": "country:mx",
+      "latitude": 20.6597,
+      "longitude": -103.3496
+    },
+    {
+      "regionId": "city:mx:mty",
+      "name": "Monterrey",
+      "isoCode": "MTY",
+      "type": "city",
+      "parentRegionId": "country:mx",
+      "latitude": 25.6866,
+      "longitude": -100.3161
+    }
+  ],
+  "officeholders": [
+    {
+      "personId": "person:us:president:biden",
+      "name": "Joe Biden",
+      "title": "President of the United States",
+      "regionId": "country:us",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2021-01-20T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.whitehouse.gov",
+      "photoURL": "https://www.whitehouse.gov/wp-content/uploads/2021/04/P20210303AS-1901.jpg"
+    },
+    {
+      "personId": "person:ca:pm:trudeau",
+      "name": "Justin Trudeau",
+      "title": "Prime Minister of Canada",
+      "regionId": "country:ca",
+      "partyName": "Liberal Party",
+      "partyURL": "https://liberal.ca",
+      "startDate": "2015-11-04T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://pm.gc.ca",
+      "photoURL": "https://pm.gc.ca/sites/pm/files/media/pm_trudeau.jpg"
+    },
+    {
+      "personId": "person:mx:president:amlo",
+      "name": "Andrés Manuel López Obrador",
+      "title": "President of Mexico",
+      "regionId": "country:mx",
+      "partyName": "MORENA",
+      "partyURL": "https://morena.org",
+      "startDate": "2018-12-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gob.mx/presidencia",
+      "photoURL": "https://www.gob.mx/presidencia/amlo.jpg"
+    },
+    {
+      "personId": "person:gt:president:arevalo",
+      "name": "Bernardo Arévalo",
+      "title": "President of Guatemala",
+      "regionId": "country:gt",
+      "partyName": "Semilla",
+      "partyURL": null,
+      "startDate": "2024-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.guatemala.gob.gt",
+      "photoURL": null
+    },
+    {
+      "personId": "person:sv:president:bukele",
+      "name": "Nayib Bukele",
+      "title": "President of El Salvador",
+      "regionId": "country:sv",
+      "partyName": "Nuevas Ideas",
+      "partyURL": "https://nuevasideas.sv",
+      "startDate": "2019-06-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.gob.sv",
+      "photoURL": null
+    },
+    {
+      "personId": "person:cr:president:chaves",
+      "name": "Rodrigo Chaves",
+      "title": "President of Costa Rica",
+      "regionId": "country:cr",
+      "partyName": "Social Democratic Progress Party",
+      "partyURL": null,
+      "startDate": "2022-05-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.go.cr",
+      "photoURL": null
+    },
+    {
+      "personId": "person:pa:president:cortizo",
+      "name": "Laurentino Cortizo",
+      "title": "President of Panama",
+      "regionId": "country:pa",
+      "partyName": "Democratic Revolutionary Party",
+      "partyURL": null,
+      "startDate": "2019-07-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.gob.pa",
+      "photoURL": null
+    },
+    {
+      "personId": "person:cu:president:diaz-canel",
+      "name": "Miguel Díaz-Canel",
+      "title": "President of Cuba",
+      "regionId": "country:cu",
+      "partyName": "Communist Party of Cuba",
+      "partyURL": null,
+      "startDate": "2018-04-19T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.gob.cu",
+      "photoURL": null
+    },
+    {
+      "personId": "person:jm:pm:holness",
+      "name": "Andrew Holness",
+      "title": "Prime Minister of Jamaica",
+      "regionId": "country:jm",
+      "partyName": "Jamaica Labour Party",
+      "partyURL": "https://jamaicalabourparty.com",
+      "startDate": "2016-03-03T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://opm.gov.jm",
+      "photoURL": null
+    },
+    {
+      "personId": "person:do:president:abinader",
+      "name": "Luis Abinader",
+      "title": "President of Dominican Republic",
+      "regionId": "country:do",
+      "partyName": "Modern Revolutionary Party",
+      "partyURL": null,
+      "startDate": "2020-08-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://presidencia.gob.do",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ca:governor:newsom",
+      "name": "Gavin Newsom",
+      "title": "Governor of California",
+      "regionId": "state:us:ca",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gov.ca.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:tx:governor:abbott",
+      "name": "Greg Abbott",
+      "title": "Governor of Texas",
+      "regionId": "state:us:tx",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2015-01-20T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.texas.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:fl:governor:desantis",
+      "name": "Ron DeSantis",
+      "title": "Governor of Florida",
+      "regionId": "state:us:fl",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.flgov.com",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ny:governor:hochul",
+      "name": "Kathy Hochul",
+      "title": "Governor of New York",
+      "regionId": "state:us:ny",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2021-08-24T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.ny.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:il:governor:pritzker",
+      "name": "JB Pritzker",
+      "title": "Governor of Illinois",
+      "regionId": "state:us:il",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.illinois.gov/gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:pa:governor:shapiro",
+      "name": "Josh Shapiro",
+      "title": "Governor of Pennsylvania",
+      "regionId": "state:us:pa",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-01-17T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.pa.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:oh:governor:dewine",
+      "name": "Mike DeWine",
+      "title": "Governor of Ohio",
+      "regionId": "state:us:oh",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.ohio.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nc:governor:cooper",
+      "name": "Roy Cooper",
+      "title": "Governor of North Carolina",
+      "regionId": "state:us:nc",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2017-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.nc.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:mi:governor:whitmer",
+      "name": "Gretchen Whitmer",
+      "title": "Governor of Michigan",
+      "regionId": "state:us:mi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.michigan.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ga:governor:kemp",
+      "name": "Brian Kemp",
+      "title": "Governor of Georgia",
+      "regionId": "state:us:ga",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.georgia.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:on:premier:ford",
+      "name": "Doug Ford",
+      "title": "Premier of Ontario",
+      "regionId": "province:ca:on",
+      "partyName": "Progressive Conservative Party",
+      "partyURL": "https://ontariopc.ca",
+      "startDate": "2018-06-29T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.ontario.ca/page/premier",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:qc:premier:legault",
+      "name": "François Legault",
+      "title": "Premier of Quebec",
+      "regionId": "province:ca:qc",
+      "partyName": "Coalition Avenir Québec",
+      "partyURL": "https://coalitionavenirquebec.org",
+      "startDate": "2018-10-18T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.quebec.ca/premier-ministre",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:bc:premier:eby",
+      "name": "David Eby",
+      "title": "Premier of British Columbia",
+      "regionId": "province:ca:bc",
+      "partyName": "New Democratic Party",
+      "partyURL": "https://www.bcndp.ca",
+      "startDate": "2022-11-18T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gov.bc.ca/premier",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:ab:premier:smith",
+      "name": "Danielle Smith",
+      "title": "Premier of Alberta",
+      "regionId": "province:ca:ab",
+      "partyName": "United Conservative Party",
+      "partyURL": "https://www.unitedconservative.ca",
+      "startDate": "2022-10-11T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.alberta.ca/premier",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nyc:mayor:adams",
+      "name": "Eric Adams",
+      "title": "Mayor of New York City",
+      "regionId": "city:us:nyc",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.nyc.gov/office-of-the-mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:la:mayor:bass",
+      "name": "Karen Bass",
+      "title": "Mayor of Los Angeles",
+      "regionId": "city:us:la",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-12-12T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.lamayor.org",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:chi:mayor:johnson",
+      "name": "Brandon Johnson",
+      "title": "Mayor of Chicago",
+      "regionId": "city:us:chi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-05-15T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.chicago.gov/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:tor:mayor:chow",
+      "name": "Olivia Chow",
+      "title": "Mayor of Toronto",
+      "regionId": "city:ca:tor",
+      "partyName": "Independent",
+      "partyURL": null,
+      "startDate": "2023-07-12T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.toronto.ca/city-government/council/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:mtl:mayor:plante",
+      "name": "Valérie Plante",
+      "title": "Mayor of Montreal",
+      "regionId": "city:ca:mtl",
+      "partyName": "Projet Montréal",
+      "partyURL": "https://www.projetmontreal.org",
+      "startDate": "2017-11-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://montreal.ca/en/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:van:mayor:sim",
+      "name": "Ken Sim",
+      "title": "Mayor of Vancouver",
+      "regionId": "city:ca:van",
+      "partyName": "ABC Vancouver",
+      "partyURL": null,
+      "startDate": "2022-11-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://vancouver.ca/your-government/mayor-of-vancouver",
+      "photoURL": null
+    }
+  ],
+  "promises": [
+    {
+      "promiseId": "promise:biden:infrastructure:2021",
+      "personId": "person:us:president:biden",
+      "regionId": "country:us",
+      "dateMade": "2021-03-31T00:00:00Z",
+      "context": "Unveiling the American Jobs Plan",
+      "quoteExact": "We're going to rebuild America's infrastructure and create millions of good-paying union jobs in the process.",
+      "summary": "Pass a major infrastructure bill to rebuild roads, bridges, and create jobs",
+      "tagsJSON": "[\"infrastructure\", \"jobs\", \"economy\"]",
+      "dueBy": "2024-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2021/03/31/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"infrastructure\", \"employment\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:trudeau:climate:2021",
+      "personId": "person:ca:pm:trudeau",
+      "regionId": "country:ca",
+      "dateMade": "2021-04-22T00:00:00Z",
+      "context": "Earth Day Climate Summit commitment",
+      "quoteExact": "Canada will reduce emissions by 40-45% below 2005 levels by 2030.",
+      "summary": "Reduce Canada's greenhouse gas emissions by 40-45% by 2030",
+      "tagsJSON": "[\"climate\", \"environment\", \"emissions\"]",
+      "dueBy": "2030-12-31T00:00:00Z",
+      "sourcePrimary": "https://pm.gc.ca/en/news/statements/2021/04/22/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"climate\", \"environment\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:newsom:housing:2023",
+      "personId": "person:us:ca:governor:newsom",
+      "regionId": "state:us:ca",
+      "dateMade": "2023-01-10T00:00:00Z",
+      "context": "State of the State address",
+      "quoteExact": "We will build 500,000 new homes annually to address the housing crisis.",
+      "summary": "Build 500,000 new homes annually in California",
+      "tagsJSON": "[\"housing\", \"affordability\", \"construction\"]",
+      "dueBy": "2027-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.gov.ca.gov/2023/01/10/state-of-the-state/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"housing\", \"urban_development\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:abbott:border:2023",
+      "personId": "person:us:tx:governor:abbott",
+      "regionId": "state:us:tx",
+      "dateMade": "2023-02-15T00:00:00Z",
+      "context": "Border security announcement",
+      "quoteExact": "We will deploy additional National Guard troops and build more border barriers to secure Texas.",
+      "summary": "Enhance border security with more troops and barriers",
+      "tagsJSON": "[\"border\", \"security\", \"immigration\"]",
+      "dueBy": "2024-12-31T00:00:00Z",
+      "sourcePrimary": "https://gov.texas.gov/news/post/governor-abbott-announces-border-mission",
+      "sourceType": "gov_release",
+      "policyTagsJSON": "[\"border_security\", \"immigration\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:ford:healthcare:2023",
+      "personId": "person:ca:on:premier:ford",
+      "regionId": "province:ca:on",
+      "dateMade": "2023-03-01T00:00:00Z",
+      "context": "Healthcare expansion announcement",
+      "quoteExact": "We will add 3,000 new hospital beds and hire 6,000 more nurses across Ontario.",
+      "summary": "Expand healthcare capacity with new beds and nursing staff",
+      "tagsJSON": "[\"healthcare\", \"hospitals\", \"nursing\"]",
+      "dueBy": "2025-12-31T00:00:00Z",
+      "sourcePrimary": "https://news.ontario.ca/en/release/healthcare-expansion",
+      "sourceType": "gov_release",
+      "policyTagsJSON": "[\"healthcare\", \"public_health\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:adams:crime:2023",
+      "personId": "person:us:nyc:mayor:adams",
+      "regionId": "city:us:nyc",
+      "dateMade": "2023-04-10T00:00:00Z",
+      "context": "Public safety initiative announcement",
+      "quoteExact": "We will reduce major crimes by 20% and add 2,000 more officers to patrol the subway system.",
+      "summary": "Reduce crime and increase subway patrol officers",
+      "tagsJSON": "[\"crime\", \"public_safety\", \"transit\"]",
+      "dueBy": "2024-12-31T00:00:00Z",
+      "sourcePrimary": "https://www.nyc.gov/office-of-the-mayor/news/public-safety",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"public_safety\", \"law_enforcement\"]",
+      "effectInputsJSON": null
+    }
+  ],
+  "evidence": [],
+  "statusSnapshots": [],
+  "industries": [],
+  "policyTags": [],
+  "policyTagIndustries": [],
+  "promiseIndustryImpacts": []
+}

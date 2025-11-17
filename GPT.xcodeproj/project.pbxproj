@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078CB8D0E5E99F396EA02815 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008AF488AF3FE27B06C723E /* NotificationManager.swift */; };
+		1BA558654CB7F950EEF71985 /* InteractiveMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49E85CF16BD52D126ABF96 /* InteractiveMapView.swift */; };
+		21DA245AE8A6A42616DBD242 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFE2A4838B0683CA15CB7D /* Promise.swift */; };
+		2B604C44E70D05DADADEE122 /* PromiseCompanyImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0399ADEB8A4D67FF7E660AB1 /* PromiseCompanyImpact.swift */; };
+		2E2B1161B5BD08785CA39655 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1DCD2E01F9820AA3CD92FC /* CountryView.swift */; };
+		37D385F7BC01C1B6CFAECBFA /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8160B90172B5F1B18B1AD /* Company.swift */; };
+		3D3AD8467805964E67B8F01D /* Officeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06122C845905E5AFD5C864 /* Officeholder.swift */; };
+		5ED1E39747BBB91364FD4617 /* seed_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 74CDB70F502C9BAB0D8EBBBF /* seed_data.json */; };
+		640E54E47811B42CEC0BF5EA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00B7741939F5E8B2A17A391 /* SettingsView.swift */; };
+		66B7F0D6D1700A5370A6146F /* Industry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F146F74E26B5CF66F6319 /* Industry.swift */; };
+		692C5665A46FF81F68243F42 /* PromiseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D7203EAD35B93A2403EBD /* PromiseDetailView.swift */; };
+		69BE8A5C53E0C7B792A513D1 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75A33821EF061E0449575F /* SearchService.swift */; };
+		731D111DE63CFC98C156BBFB /* Evidence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794774109E6ACF326C85A42F /* Evidence.swift */; };
+		792C08B81AD55C978A377E79 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFE058418C855195215BE1 /* Region.swift */; };
+		7A497CD200B8DC3319E5FA64 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E5F16824629AE5B8CF5EE /* OnboardingView.swift */; };
+		84BC7A30A046C7D0B45FF7A2 /* MapBoundaryOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE805067895510381ADA8D71 /* MapBoundaryOverlay.swift */; };
+		87022BAEF821D633D4E1F017 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0F72C46E5DA1F6E06F710E /* MarketsView.swift */; };
+		932EA5C4204A3CDD3DCEA6E2 /* LeaderMarketImpactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEF24A0586CAF7161B7F50A /* LeaderMarketImpactView.swift */; };
+		93A1ACFA8FB79DF72BD9D5EB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F30B196B7EFFA4C5FA3A62 /* DatabaseManager.swift */; };
+		93C20C2B25DC249E0AEF357F /* GeoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CB7E8A18A2896BAA2C0642 /* GeoService.swift */; };
+		AA0000010000000000000001 /* GPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000020000000000000001 /* GPTApp.swift */; };
+		AA0000030000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000040000000000000001 /* ContentView.swift */; };
+		AA0000050000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000060000000000000001 /* Assets.xcassets */; };
+		C038E470AAD64E862667FFE8 /* HierarchicalMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8DD2A19D3CE53ED8AA462F /* HierarchicalMapView.swift */; };
+		C9EA70593A0FB2799D20EC9D /* HomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF563756614458A4FD53382 /* HomeMapView.swift */; };
+		D7F9FAB47FF27B40A5A0B8A2 /* StatusSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F42A03C330D164289E533F /* StatusSnapshot.swift */; };
+		E5C5734B8AA30BE369BE99EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A6A511331189D26F56F8D /* SearchView.swift */; };
+		F9D30B0A411A6D6C73E968A7 /* PromisesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53767934E26FF979DB36EFF2 /* PromisesListView.swift */; };
+		FF482E2F2EB400B60008E667 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 73AE38E4730B59185F7C755E /* GRDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0399ADEB8A4D67FF7E660AB1 /* PromiseCompanyImpact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PromiseCompanyImpact.swift; sourceTree = "<group>"; };
+		2008AF488AF3FE27B06C723E /* NotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		22DFE058418C855195215BE1 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		2B0F72C46E5DA1F6E06F710E /* MarketsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		32F42A03C330D164289E533F /* StatusSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatusSnapshot.swift; sourceTree = "<group>"; };
+		37CFE2A4838B0683CA15CB7D /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		3D75A33821EF061E0449575F /* SearchService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		53767934E26FF979DB36EFF2 /* PromisesListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PromisesListView.swift; sourceTree = "<group>"; };
+		54F30B196B7EFFA4C5FA3A62 /* DatabaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		62CB7E8A18A2896BAA2C0642 /* GeoService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeoService.swift; sourceTree = "<group>"; };
+		6F06122C845905E5AFD5C864 /* Officeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Officeholder.swift; sourceTree = "<group>"; };
+		74CDB70F502C9BAB0D8EBBBF /* seed_data.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = seed_data.json; sourceTree = "<group>"; };
+		794774109E6ACF326C85A42F /* Evidence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Evidence.swift; sourceTree = "<group>"; };
+		8A4A6A511331189D26F56F8D /* SearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		9DF563756614458A4FD53382 /* HomeMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeMapView.swift; sourceTree = "<group>"; };
+		AA0000020000000000000001 /* GPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTApp.swift; sourceTree = "<group>"; };
+		AA0000040000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0000060000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000070000000000000001 /* GPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000080000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5E5F16824629AE5B8CF5EE /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B00B7741939F5E8B2A17A391 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BB8DD2A19D3CE53ED8AA462F /* HierarchicalMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HierarchicalMapView.swift; sourceTree = "<group>"; };
+		BC3D7203EAD35B93A2403EBD /* PromiseDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PromiseDetailView.swift; sourceTree = "<group>"; };
+		CA49E85CF16BD52D126ABF96 /* InteractiveMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InteractiveMapView.swift; sourceTree = "<group>"; };
+		D95F146F74E26B5CF66F6319 /* Industry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Industry.swift; sourceTree = "<group>"; };
+		DCC8160B90172B5F1B18B1AD /* Company.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		DE1DCD2E01F9820AA3CD92FC /* CountryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		EFEF24A0586CAF7161B7F50A /* LeaderMarketImpactView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeaderMarketImpactView.swift; sourceTree = "<group>"; };
+		FE805067895510381ADA8D71 /* MapBoundaryOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapBoundaryOverlay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000090000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF482E2F2EB400B60008E667 /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05DA8D268D014E0728F35D80 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74CDB70F502C9BAB0D8EBBBF /* seed_data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA000000A000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AA000000B000000000000001 /* GPT */,
+				AA000000C000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA000000B000000000000001 /* GPT */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000020000000000000001 /* GPTApp.swift */,
+				AA0000040000000000000001 /* ContentView.swift */,
+				AA000000D000000000000001 /* Models */,
+				AA000000E000000000000001 /* Views */,
+				AA000000F000000000000001 /* Services */,
+				AA0000010000000000000002 /* Database */,
+				AA0000060000000000000001 /* Assets.xcassets */,
+				AA0000080000000000000001 /* Info.plist */,
+				05DA8D268D014E0728F35D80 /* Resources */,
+				FE3F51102A791996C3667C71 /* Managers */,
+			);
+			path = GPT;
+			sourceTree = "<group>";
+		};
+		AA000000C000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000070000000000000001 /* GPT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA000000D000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22DFE058418C855195215BE1 /* Region.swift */,
+				6F06122C845905E5AFD5C864 /* Officeholder.swift */,
+				37CFE2A4838B0683CA15CB7D /* Promise.swift */,
+				794774109E6ACF326C85A42F /* Evidence.swift */,
+				32F42A03C330D164289E533F /* StatusSnapshot.swift */,
+				D95F146F74E26B5CF66F6319 /* Industry.swift */,
+				DCC8160B90172B5F1B18B1AD /* Company.swift */,
+				0399ADEB8A4D67FF7E660AB1 /* PromiseCompanyImpact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA000000E000000000000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DF563756614458A4FD53382 /* HomeMapView.swift */,
+				DE1DCD2E01F9820AA3CD92FC /* CountryView.swift */,
+				53767934E26FF979DB36EFF2 /* PromisesListView.swift */,
+				BC3D7203EAD35B93A2403EBD /* PromiseDetailView.swift */,
+				8A4A6A511331189D26F56F8D /* SearchView.swift */,
+				BB8DD2A19D3CE53ED8AA462F /* HierarchicalMapView.swift */,
+				CA49E85CF16BD52D126ABF96 /* InteractiveMapView.swift */,
+				2B0F72C46E5DA1F6E06F710E /* MarketsView.swift */,
+				EFEF24A0586CAF7161B7F50A /* LeaderMarketImpactView.swift */,
+				FE805067895510381ADA8D71 /* MapBoundaryOverlay.swift */,
+				AD5E5F16824629AE5B8CF5EE /* OnboardingView.swift */,
+				B00B7741939F5E8B2A17A391 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA000000F000000000000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D75A33821EF061E0449575F /* SearchService.swift */,
+				62CB7E8A18A2896BAA2C0642 /* GeoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA0000010000000000000002 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				54F30B196B7EFFA4C5FA3A62 /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		FE3F51102A791996C3667C71 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2008AF488AF3FE27B06C723E /* NotificationManager.swift */,
+			);
+			name = Managers;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000011000000000000001 /* GPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000012000000000000001 /* Build configuration list for PBXNativeTarget "GPT" */;
+			buildPhases = (
+				AA0000013000000000000001 /* Sources */,
+				AA0000090000000000000001 /* Frameworks */,
+				AA0000014000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPT;
+			packageProductDependencies = (
+				73AE38E4730B59185F7C755E /* GRDB */,
+			);
+			productName = GPT;
+			productReference = AA0000070000000000000001 /* GPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000015000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AA0000011000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000016000000000000001 /* Build configuration list for PBXProject "GPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA000000A000000000000001;
+			packageReferences = (
+				AA0000017000000000000001 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
+			productRefGroup = AA000000C000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000011000000000000001 /* GPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000014000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000050000000000000001 /* Assets.xcassets in Resources */,
+				5ED1E39747BBB91364FD4617 /* seed_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000013000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000030000000000000001 /* ContentView.swift in Sources */,
+				AA0000010000000000000001 /* GPTApp.swift in Sources */,
+				93A1ACFA8FB79DF72BD9D5EB /* DatabaseManager.swift in Sources */,
+				792C08B81AD55C978A377E79 /* Region.swift in Sources */,
+				3D3AD8467805964E67B8F01D /* Officeholder.swift in Sources */,
+				21DA245AE8A6A42616DBD242 /* Promise.swift in Sources */,
+				731D111DE63CFC98C156BBFB /* Evidence.swift in Sources */,
+				D7F9FAB47FF27B40A5A0B8A2 /* StatusSnapshot.swift in Sources */,
+				66B7F0D6D1700A5370A6146F /* Industry.swift in Sources */,
+				69BE8A5C53E0C7B792A513D1 /* SearchService.swift in Sources */,
+				93C20C2B25DC249E0AEF357F /* GeoService.swift in Sources */,
+				C9EA70593A0FB2799D20EC9D /* HomeMapView.swift in Sources */,
+				2E2B1161B5BD08785CA39655 /* CountryView.swift in Sources */,
+				F9D30B0A411A6D6C73E968A7 /* PromisesListView.swift in Sources */,
+				692C5665A46FF81F68243F42 /* PromiseDetailView.swift in Sources */,
+				E5C5734B8AA30BE369BE99EC /* SearchView.swift in Sources */,
+				C038E470AAD64E862667FFE8 /* HierarchicalMapView.swift in Sources */,
+				1BA558654CB7F950EEF71985 /* InteractiveMapView.swift in Sources */,
+				87022BAEF821D633D4E1F017 /* MarketsView.swift in Sources */,
+				932EA5C4204A3CDD3DCEA6E2 /* LeaderMarketImpactView.swift in Sources */,
+				84BC7A30A046C7D0B45FF7A2 /* MapBoundaryOverlay.swift in Sources */,
+				078CB8D0E5E99F396EA02815 /* NotificationManager.swift in Sources */,
+				7A497CD200B8DC3319E5FA64 /* OnboardingView.swift in Sources */,
+				640E54E47811B42CEC0BF5EA /* SettingsView.swift in Sources */,
+				37D385F7BC01C1B6CFAECBFA /* Company.swift in Sources */,
+				2B604C44E70D05DADADEE122 /* PromiseCompanyImpact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000018000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 27B4WJ39UV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000019000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 27B4WJ39UV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000001A000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gpt.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000001B000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gpt.tracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000012000000000000001 /* Build configuration list for PBXNativeTarget "GPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000001A000000000000001 /* Debug */,
+				AA000001B000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000016000000000000001 /* Build configuration list for PBXProject "GPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000018000000000000001 /* Debug */,
+				AA0000019000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA0000017000000000000001 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		73AE38E4730B59185F7C755E /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000017000000000000001 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA0000015000000000000001 /* Project object */;
+}

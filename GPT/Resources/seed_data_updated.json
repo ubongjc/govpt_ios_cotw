@@ -1,0 +1,3281 @@
+{
+  "regions": [
+    {
+      "regionId": "city:us:atl",
+      "name": "Atlanta",
+      "isoCode": "ATL",
+      "type": "city",
+      "parentRegionId": "state:us:ga",
+      "latitude": 33.749,
+      "longitude": -84.388
+    },
+    {
+      "regionId": "city:us:aus",
+      "name": "Austin",
+      "isoCode": "AUS",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 30.2672,
+      "longitude": -97.7431
+    },
+    {
+      "regionId": "city:cn:beijing",
+      "name": "Beijing",
+      "isoCode": "BEJ",
+      "type": "city",
+      "parentRegionId": "country:cn",
+      "latitude": 39.9042,
+      "longitude": 116.4074
+    },
+    {
+      "regionId": "city:de:berlin",
+      "name": "Berlin",
+      "isoCode": "BER",
+      "type": "city",
+      "parentRegionId": "country:de",
+      "latitude": 52.52,
+      "longitude": 13.405
+    },
+    {
+      "regionId": "city:us:bos",
+      "name": "Boston",
+      "isoCode": "BOS",
+      "type": "city",
+      "parentRegionId": "state:us:ma",
+      "latitude": 42.3601,
+      "longitude": -71.0589
+    },
+    {
+      "regionId": "city:ar:buenosaires",
+      "name": "Buenos Aires",
+      "isoCode": "BUE",
+      "type": "city",
+      "parentRegionId": "country:ar",
+      "latitude": -34.6037,
+      "longitude": -58.3816
+    },
+    {
+      "regionId": "city:ca:cal",
+      "name": "Calgary",
+      "isoCode": "CAL",
+      "type": "city",
+      "parentRegionId": "province:ca:ab",
+      "latitude": 51.0447,
+      "longitude": -114.0719
+    },
+    {
+      "regionId": "city:us:chi",
+      "name": "Chicago",
+      "isoCode": "CHI",
+      "type": "city",
+      "parentRegionId": "state:us:il",
+      "latitude": 41.8781,
+      "longitude": -87.6298
+    },
+    {
+      "regionId": "city:us:col",
+      "name": "Columbus",
+      "isoCode": "COL",
+      "type": "city",
+      "parentRegionId": "state:us:oh",
+      "latitude": 39.9612,
+      "longitude": -82.9988
+    },
+    {
+      "regionId": "city:us:dal",
+      "name": "Dallas",
+      "isoCode": "DAL",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 32.7767,
+      "longitude": -96.797
+    },
+    {
+      "regionId": "city:us:den",
+      "name": "Denver",
+      "isoCode": "DEN",
+      "type": "city",
+      "parentRegionId": "state:us:co",
+      "latitude": 39.7392,
+      "longitude": -104.9903
+    },
+    {
+      "regionId": "city:ca:edm",
+      "name": "Edmonton",
+      "isoCode": "EDM",
+      "type": "city",
+      "parentRegionId": "province:ca:ab",
+      "latitude": 53.5461,
+      "longitude": -113.4938
+    },
+    {
+      "regionId": "city:mx:gdl",
+      "name": "Guadalajara",
+      "isoCode": "GDL",
+      "type": "city",
+      "parentRegionId": "country:mx",
+      "latitude": 20.6597,
+      "longitude": -103.3496
+    },
+    {
+      "regionId": "city:us:hou",
+      "name": "Houston",
+      "isoCode": "HOU",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 29.7604,
+      "longitude": -95.3698
+    },
+    {
+      "regionId": "city:us:jax",
+      "name": "Jacksonville",
+      "isoCode": "JAX",
+      "type": "city",
+      "parentRegionId": "state:us:fl",
+      "latitude": 30.3322,
+      "longitude": -81.6557
+    },
+    {
+      "regionId": "city:gb:london",
+      "name": "London",
+      "isoCode": "LON",
+      "type": "city",
+      "parentRegionId": "country:gb",
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    },
+    {
+      "regionId": "city:us:la",
+      "name": "Los Angeles",
+      "isoCode": "LA",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    {
+      "regionId": "city:mx:mex",
+      "name": "Mexico City",
+      "isoCode": "MEX",
+      "type": "city",
+      "parentRegionId": "country:mx",
+      "latitude": 19.4326,
+      "longitude": -99.1332
+    },
+    {
+      "regionId": "city:us:mia",
+      "name": "Miami",
+      "isoCode": "MIA",
+      "type": "city",
+      "parentRegionId": "state:us:fl",
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    },
+    {
+      "regionId": "city:mx:mty",
+      "name": "Monterrey",
+      "isoCode": "MTY",
+      "type": "city",
+      "parentRegionId": "country:mx",
+      "latitude": 25.6866,
+      "longitude": -100.3161
+    },
+    {
+      "regionId": "city:ca:mtl",
+      "name": "Montreal",
+      "isoCode": "MTL",
+      "type": "city",
+      "parentRegionId": "province:ca:qc",
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    },
+    {
+      "regionId": "city:in:delhi",
+      "name": "New Delhi",
+      "isoCode": "DEL",
+      "type": "city",
+      "parentRegionId": "country:in",
+      "latitude": 28.6139,
+      "longitude": 77.209
+    },
+    {
+      "regionId": "city:us:nyc",
+      "name": "New York City",
+      "isoCode": "NYC",
+      "type": "city",
+      "parentRegionId": "state:us:ny",
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    {
+      "regionId": "city:ca:ott",
+      "name": "Ottawa",
+      "isoCode": "OTT",
+      "type": "city",
+      "parentRegionId": "province:ca:on",
+      "latitude": 45.4215,
+      "longitude": -75.6972
+    },
+    {
+      "regionId": "city:fr:paris",
+      "name": "Paris",
+      "isoCode": "PAR",
+      "type": "city",
+      "parentRegionId": "country:fr",
+      "latitude": 48.8566,
+      "longitude": 2.3522
+    },
+    {
+      "regionId": "city:us:phi",
+      "name": "Philadelphia",
+      "isoCode": "PHI",
+      "type": "city",
+      "parentRegionId": "state:us:pa",
+      "latitude": 39.9526,
+      "longitude": -75.1652
+    },
+    {
+      "regionId": "city:us:phx",
+      "name": "Phoenix",
+      "isoCode": "PHX",
+      "type": "city",
+      "parentRegionId": "state:us:az",
+      "latitude": 33.4484,
+      "longitude": -112.074
+    },
+    {
+      "regionId": "city:us:san",
+      "name": "San Antonio",
+      "isoCode": "SAN",
+      "type": "city",
+      "parentRegionId": "state:us:tx",
+      "latitude": 29.4241,
+      "longitude": -98.4936
+    },
+    {
+      "regionId": "city:us:sd",
+      "name": "San Diego",
+      "isoCode": "SD",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 32.7157,
+      "longitude": -117.1611
+    },
+    {
+      "regionId": "city:us:sf",
+      "name": "San Francisco",
+      "isoCode": "SF",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    },
+    {
+      "regionId": "city:us:sj",
+      "name": "San Jose",
+      "isoCode": "SJ",
+      "type": "city",
+      "parentRegionId": "state:us:ca",
+      "latitude": 37.3382,
+      "longitude": -121.8863
+    },
+    {
+      "regionId": "city:us:sea",
+      "name": "Seattle",
+      "isoCode": "SEA",
+      "type": "city",
+      "parentRegionId": "state:us:wa",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    {
+      "regionId": "city:au:sydney",
+      "name": "Sydney",
+      "isoCode": "SYD",
+      "type": "city",
+      "parentRegionId": "country:au",
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    },
+    {
+      "regionId": "city:br:saopaulo",
+      "name": "São Paulo",
+      "isoCode": "SAO",
+      "type": "city",
+      "parentRegionId": "country:br",
+      "latitude": -23.5505,
+      "longitude": -46.6333
+    },
+    {
+      "regionId": "city:jp:tokyo",
+      "name": "Tokyo",
+      "isoCode": "TYO",
+      "type": "city",
+      "parentRegionId": "country:jp",
+      "latitude": 35.6762,
+      "longitude": 139.6503
+    },
+    {
+      "regionId": "city:ca:tor",
+      "name": "Toronto",
+      "isoCode": "TOR",
+      "type": "city",
+      "parentRegionId": "province:ca:on",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    {
+      "regionId": "city:ca:van",
+      "name": "Vancouver",
+      "isoCode": "VAN",
+      "type": "city",
+      "parentRegionId": "province:ca:bc",
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    },
+    {
+      "regionId": "city:us:dc",
+      "name": "Washington D.C.",
+      "isoCode": "DC",
+      "type": "city",
+      "parentRegionId": "country:us",
+      "latitude": 38.9072,
+      "longitude": -77.0369
+    },
+    {
+      "regionId": "cont:africa",
+      "name": "Africa",
+      "isoCode": "AF",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": 8.7832,
+      "longitude": 34.5085
+    },
+    {
+      "regionId": "cont:asia",
+      "name": "Asia",
+      "isoCode": "AS",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": 34.0479,
+      "longitude": 100.6197
+    },
+    {
+      "regionId": "cont:europe",
+      "name": "Europe",
+      "isoCode": "EU",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": 54.526,
+      "longitude": 15.2551
+    },
+    {
+      "regionId": "cont:north_america",
+      "name": "North America",
+      "isoCode": "NA",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": 54.526,
+      "longitude": -105.2551
+    },
+    {
+      "regionId": "cont:oceania",
+      "name": "Oceania",
+      "isoCode": "OC",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": -22.7359,
+      "longitude": 140.0188
+    },
+    {
+      "regionId": "cont:south_america",
+      "name": "South America",
+      "isoCode": "SA",
+      "type": "continent",
+      "parentRegionId": null,
+      "latitude": -8.7832,
+      "longitude": -55.4915
+    },
+    {
+      "regionId": "country:ar",
+      "name": "Argentina",
+      "isoCode": "AR",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": -38.4161,
+      "longitude": -63.6167,
+      "nextElection": "2027-10-26T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:au",
+      "name": "Australia",
+      "isoCode": "AU",
+      "type": "country",
+      "parentRegionId": "cont:oceania",
+      "latitude": -25.2744,
+      "longitude": 133.7751,
+      "nextElection": "2028-05-17T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:bs",
+      "name": "Bahamas",
+      "isoCode": "BS",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 25.0343,
+      "longitude": -77.3963
+    },
+    {
+      "regionId": "country:bb",
+      "name": "Barbados",
+      "isoCode": "BB",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 13.1939,
+      "longitude": -59.5432
+    },
+    {
+      "regionId": "country:bz",
+      "name": "Belize",
+      "isoCode": "BZ",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 17.1899,
+      "longitude": -88.4976
+    },
+    {
+      "regionId": "country:br",
+      "name": "Brazil",
+      "isoCode": "BR",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": -14.235,
+      "longitude": -51.9253,
+      "nextElection": "2026-10-02T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:ca",
+      "name": "Canada",
+      "isoCode": "CA",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 56.1304,
+      "longitude": -106.3468,
+      "nextElection": "2025-10-20T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:cl",
+      "name": "Chile",
+      "isoCode": "CL",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": -35.6751,
+      "longitude": -71.543,
+      "nextElection": "2025-11-21T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:cn",
+      "name": "China",
+      "isoCode": "CN",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 35.8617,
+      "longitude": 104.1954,
+      "nextElection": null,
+      "electionSystem": "non-democratic"
+    },
+    {
+      "regionId": "country:co",
+      "name": "Colombia",
+      "isoCode": "CO",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": 4.5709,
+      "longitude": -74.2973,
+      "nextElection": "2026-05-31T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:cr",
+      "name": "Costa Rica",
+      "isoCode": "CR",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 9.7489,
+      "longitude": -83.7534
+    },
+    {
+      "regionId": "country:cu",
+      "name": "Cuba",
+      "isoCode": "CU",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 21.5218,
+      "longitude": -77.7812,
+      "nextElection": null,
+      "electionSystem": "non-democratic"
+    },
+    {
+      "regionId": "country:do",
+      "name": "Dominican Republic",
+      "isoCode": "DO",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 18.7357,
+      "longitude": -70.1627
+    },
+    {
+      "regionId": "country:ec",
+      "name": "Ecuador",
+      "isoCode": "EC",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": -1.8312,
+      "longitude": -78.1834,
+      "nextElection": "2025-02-09T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:eg",
+      "name": "Egypt",
+      "isoCode": "EG",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": 26.8206,
+      "longitude": 30.8025,
+      "nextElection": null,
+      "electionSystem": "non-democratic"
+    },
+    {
+      "regionId": "country:sv",
+      "name": "El Salvador",
+      "isoCode": "SV",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 13.7942,
+      "longitude": -88.8965
+    },
+    {
+      "regionId": "country:et",
+      "name": "Ethiopia",
+      "isoCode": "ET",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": 9.145,
+      "longitude": 40.4897,
+      "nextElection": "2026-06-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:fj",
+      "name": "Fiji",
+      "isoCode": "FJ",
+      "type": "country",
+      "parentRegionId": "cont:oceania",
+      "latitude": -17.7134,
+      "longitude": 178.065
+    },
+    {
+      "regionId": "country:fr",
+      "name": "France",
+      "isoCode": "FR",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 46.2276,
+      "longitude": 2.2137,
+      "nextElection": "2027-04-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:de",
+      "name": "Germany",
+      "isoCode": "DE",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 51.1657,
+      "longitude": 10.4515,
+      "nextElection": "2029-09-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:gh",
+      "name": "Ghana",
+      "isoCode": "GH",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": 7.9465,
+      "longitude": -1.0232
+    },
+    {
+      "regionId": "country:gt",
+      "name": "Guatemala",
+      "isoCode": "GT",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 15.7835,
+      "longitude": -90.2308
+    },
+    {
+      "regionId": "country:ht",
+      "name": "Haiti",
+      "isoCode": "HT",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 18.9712,
+      "longitude": -72.2852
+    },
+    {
+      "regionId": "country:hn",
+      "name": "Honduras",
+      "isoCode": "HN",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 15.2,
+      "longitude": -86.2419
+    },
+    {
+      "regionId": "country:in",
+      "name": "India",
+      "isoCode": "IN",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "nextElection": "2029-05-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:id",
+      "name": "Indonesia",
+      "isoCode": "ID",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": -0.7893,
+      "longitude": 113.9213,
+      "nextElection": "2029-02-14T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:it",
+      "name": "Italy",
+      "isoCode": "IT",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 41.8719,
+      "longitude": 12.5674,
+      "nextElection": "2027-09-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:jm",
+      "name": "Jamaica",
+      "isoCode": "JM",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 18.1096,
+      "longitude": -77.2975
+    },
+    {
+      "regionId": "country:jp",
+      "name": "Japan",
+      "isoCode": "JP",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 36.2048,
+      "longitude": 138.2529,
+      "nextElection": "2025-07-27T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:ke",
+      "name": "Kenya",
+      "isoCode": "KE",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": -0.0236,
+      "longitude": 37.9062,
+      "nextElection": "2027-08-09T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:my",
+      "name": "Malaysia",
+      "isoCode": "MY",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 4.2105,
+      "longitude": 101.9758,
+      "nextElection": "2027-11-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:mx",
+      "name": "Mexico",
+      "isoCode": "MX",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 23.6345,
+      "longitude": -102.5528,
+      "nextElection": "2030-07-01T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:ma",
+      "name": "Morocco",
+      "isoCode": "MA",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": 31.7917,
+      "longitude": -7.0926
+    },
+    {
+      "regionId": "country:nl",
+      "name": "Netherlands",
+      "isoCode": "NL",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 52.1326,
+      "longitude": 5.2913,
+      "nextElection": "2025-03-17T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:nz",
+      "name": "New Zealand",
+      "isoCode": "NZ",
+      "type": "country",
+      "parentRegionId": "cont:oceania",
+      "latitude": -40.9006,
+      "longitude": 174.886,
+      "nextElection": "2026-10-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:ni",
+      "name": "Nicaragua",
+      "isoCode": "NI",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 12.8654,
+      "longitude": -85.2072
+    },
+    {
+      "regionId": "country:ng",
+      "name": "Nigeria",
+      "isoCode": "NG",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": 9.082,
+      "longitude": 8.6753,
+      "nextElection": "2027-02-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:no",
+      "name": "Norway",
+      "isoCode": "NO",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 60.472,
+      "longitude": 8.4689,
+      "nextElection": "2025-09-08T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:pa",
+      "name": "Panama",
+      "isoCode": "PA",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 8.538,
+      "longitude": -80.7821
+    },
+    {
+      "regionId": "country:pg",
+      "name": "Papua New Guinea",
+      "isoCode": "PG",
+      "type": "country",
+      "parentRegionId": "cont:oceania",
+      "latitude": -6.315,
+      "longitude": 143.9555
+    },
+    {
+      "regionId": "country:pe",
+      "name": "Peru",
+      "isoCode": "PE",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": -9.19,
+      "longitude": -75.0152,
+      "nextElection": "2026-04-11T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:ph",
+      "name": "Philippines",
+      "isoCode": "PH",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 12.8797,
+      "longitude": 121.774,
+      "nextElection": "2028-05-09T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:pl",
+      "name": "Poland",
+      "isoCode": "PL",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 51.9194,
+      "longitude": 19.1451,
+      "nextElection": "2027-10-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:sg",
+      "name": "Singapore",
+      "isoCode": "SG",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "nextElection": "2025-11-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:za",
+      "name": "South Africa",
+      "isoCode": "ZA",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": -30.5595,
+      "longitude": 22.9375,
+      "nextElection": "2029-05-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:kr",
+      "name": "South Korea",
+      "isoCode": "KR",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 35.9078,
+      "longitude": 127.7669,
+      "nextElection": "2027-03-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:es",
+      "name": "Spain",
+      "isoCode": "ES",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 40.4637,
+      "longitude": -3.7492,
+      "nextElection": "2027-12-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:se",
+      "name": "Sweden",
+      "isoCode": "SE",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 60.1282,
+      "longitude": 18.6435,
+      "nextElection": "2026-09-13T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:tz",
+      "name": "Tanzania",
+      "isoCode": "TZ",
+      "type": "country",
+      "parentRegionId": "cont:africa",
+      "latitude": -6.369,
+      "longitude": 34.8888
+    },
+    {
+      "regionId": "country:th",
+      "name": "Thailand",
+      "isoCode": "TH",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 15.87,
+      "longitude": 100.9925,
+      "nextElection": "2027-03-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:tt",
+      "name": "Trinidad and Tobago",
+      "isoCode": "TT",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 10.6918,
+      "longitude": -61.2225
+    },
+    {
+      "regionId": "country:ua",
+      "name": "Ukraine",
+      "isoCode": "UA",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 48.3794,
+      "longitude": 31.1656,
+      "nextElection": "2025-03-31T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:gb",
+      "name": "United Kingdom",
+      "isoCode": "GB",
+      "type": "country",
+      "parentRegionId": "cont:europe",
+      "latitude": 55.3781,
+      "longitude": -3.436,
+      "nextElection": "2029-08-15T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:us",
+      "name": "United States",
+      "isoCode": "US",
+      "type": "country",
+      "parentRegionId": "cont:north_america",
+      "latitude": 37.0902,
+      "longitude": -95.7129,
+      "nextElection": "2028-11-05T00:00:00Z",
+      "electionSystem": "democratic"
+    },
+    {
+      "regionId": "country:uy",
+      "name": "Uruguay",
+      "isoCode": "UY",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": -32.5228,
+      "longitude": -55.7658
+    },
+    {
+      "regionId": "country:ve",
+      "name": "Venezuela",
+      "isoCode": "VE",
+      "type": "country",
+      "parentRegionId": "cont:south_america",
+      "latitude": 6.4238,
+      "longitude": -66.5897,
+      "nextElection": null,
+      "electionSystem": "non-democratic"
+    },
+    {
+      "regionId": "country:vn",
+      "name": "Vietnam",
+      "isoCode": "VN",
+      "type": "country",
+      "parentRegionId": "cont:asia",
+      "latitude": 14.0583,
+      "longitude": 108.2772,
+      "nextElection": null,
+      "electionSystem": "non-democratic"
+    },
+    {
+      "regionId": "province:ca:ab",
+      "name": "Alberta",
+      "isoCode": "AB",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.9333,
+      "longitude": -116.5765
+    },
+    {
+      "regionId": "province:ca:bc",
+      "name": "British Columbia",
+      "isoCode": "BC",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.7267,
+      "longitude": -127.6476
+    },
+    {
+      "regionId": "province:ca:mb",
+      "name": "Manitoba",
+      "isoCode": "MB",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.7609,
+      "longitude": -98.8139
+    },
+    {
+      "regionId": "province:ca:nb",
+      "name": "New Brunswick",
+      "isoCode": "NB",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 46.5653,
+      "longitude": -66.4619
+    },
+    {
+      "regionId": "province:ca:nl",
+      "name": "Newfoundland and Labrador",
+      "isoCode": "NL",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 53.1355,
+      "longitude": -57.6604
+    },
+    {
+      "regionId": "province:ca:nt",
+      "name": "Northwest Territories",
+      "isoCode": "NT",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 64.8255,
+      "longitude": -124.8457
+    },
+    {
+      "regionId": "province:ca:ns",
+      "name": "Nova Scotia",
+      "isoCode": "NS",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 44.682,
+      "longitude": -63.7443
+    },
+    {
+      "regionId": "province:ca:nu",
+      "name": "Nunavut",
+      "isoCode": "NU",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 70.2998,
+      "longitude": -83.1076
+    },
+    {
+      "regionId": "province:ca:on",
+      "name": "Ontario",
+      "isoCode": "ON",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 51.2538,
+      "longitude": -85.3232
+    },
+    {
+      "regionId": "province:ca:pe",
+      "name": "Prince Edward Island",
+      "isoCode": "PE",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 46.5107,
+      "longitude": -63.4168
+    },
+    {
+      "regionId": "province:ca:qc",
+      "name": "Quebec",
+      "isoCode": "QC",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 52.9399,
+      "longitude": -73.5491
+    },
+    {
+      "regionId": "province:ca:sk",
+      "name": "Saskatchewan",
+      "isoCode": "SK",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 52.9399,
+      "longitude": -106.4509
+    },
+    {
+      "regionId": "province:ca:yt",
+      "name": "Yukon",
+      "isoCode": "YT",
+      "type": "province",
+      "parentRegionId": "country:ca",
+      "latitude": 64.2823,
+      "longitude": -135.0
+    },
+    {
+      "regionId": "state:us:al",
+      "name": "Alabama",
+      "isoCode": "AL",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 32.3182,
+      "longitude": -86.9023
+    },
+    {
+      "regionId": "state:us:ak",
+      "name": "Alaska",
+      "isoCode": "AK",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 64.0685,
+      "longitude": -152.2782
+    },
+    {
+      "regionId": "state:us:az",
+      "name": "Arizona",
+      "isoCode": "AZ",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 34.0489,
+      "longitude": -111.0937
+    },
+    {
+      "regionId": "state:us:ar",
+      "name": "Arkansas",
+      "isoCode": "AR",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.201,
+      "longitude": -91.8318
+    },
+    {
+      "regionId": "state:us:ca",
+      "name": "California",
+      "isoCode": "CA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 36.7783,
+      "longitude": -119.4179,
+      "nextElection": "2026-11-03T00:00:00Z"
+    },
+    {
+      "regionId": "state:us:co",
+      "name": "Colorado",
+      "isoCode": "CO",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.5501,
+      "longitude": -105.7821
+    },
+    {
+      "regionId": "state:us:ct",
+      "name": "Connecticut",
+      "isoCode": "CT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.6032,
+      "longitude": -73.0877
+    },
+    {
+      "regionId": "state:us:de",
+      "name": "Delaware",
+      "isoCode": "DE",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 38.9108,
+      "longitude": -75.5277
+    },
+    {
+      "regionId": "state:us:fl",
+      "name": "Florida",
+      "isoCode": "FL",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 27.6648,
+      "longitude": -81.5158,
+      "nextElection": "2026-11-03T00:00:00Z"
+    },
+    {
+      "regionId": "state:us:ga",
+      "name": "Georgia",
+      "isoCode": "GA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 32.1656,
+      "longitude": -82.9001
+    },
+    {
+      "regionId": "state:us:hi",
+      "name": "Hawaii",
+      "isoCode": "HI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 19.8968,
+      "longitude": -155.5828
+    },
+    {
+      "regionId": "state:us:id",
+      "name": "Idaho",
+      "isoCode": "ID",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 44.0682,
+      "longitude": -114.742
+    },
+    {
+      "regionId": "state:us:il",
+      "name": "Illinois",
+      "isoCode": "IL",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.6331,
+      "longitude": -89.3985
+    },
+    {
+      "regionId": "state:us:in",
+      "name": "Indiana",
+      "isoCode": "IN",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.2672,
+      "longitude": -86.1349
+    },
+    {
+      "regionId": "state:us:ia",
+      "name": "Iowa",
+      "isoCode": "IA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.878,
+      "longitude": -93.0977
+    },
+    {
+      "regionId": "state:us:ks",
+      "name": "Kansas",
+      "isoCode": "KS",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.0119,
+      "longitude": -98.4842
+    },
+    {
+      "regionId": "state:us:ky",
+      "name": "Kentucky",
+      "isoCode": "KY",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 37.8393,
+      "longitude": -84.27
+    },
+    {
+      "regionId": "state:us:la",
+      "name": "Louisiana",
+      "isoCode": "LA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 30.9843,
+      "longitude": -91.9623
+    },
+    {
+      "regionId": "state:us:me",
+      "name": "Maine",
+      "isoCode": "ME",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 45.2538,
+      "longitude": -69.4455
+    },
+    {
+      "regionId": "state:us:md",
+      "name": "Maryland",
+      "isoCode": "MD",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.0458,
+      "longitude": -76.6413
+    },
+    {
+      "regionId": "state:us:ma",
+      "name": "Massachusetts",
+      "isoCode": "MA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 42.4072,
+      "longitude": -71.3824
+    },
+    {
+      "regionId": "state:us:mi",
+      "name": "Michigan",
+      "isoCode": "MI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 44.3148,
+      "longitude": -85.6024
+    },
+    {
+      "regionId": "state:us:mn",
+      "name": "Minnesota",
+      "isoCode": "MN",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 46.7296,
+      "longitude": -94.6859
+    },
+    {
+      "regionId": "state:us:ms",
+      "name": "Mississippi",
+      "isoCode": "MS",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 32.3547,
+      "longitude": -89.3985
+    },
+    {
+      "regionId": "state:us:mo",
+      "name": "Missouri",
+      "isoCode": "MO",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 37.9643,
+      "longitude": -91.8318
+    },
+    {
+      "regionId": "state:us:mt",
+      "name": "Montana",
+      "isoCode": "MT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 46.8797,
+      "longitude": -110.3626
+    },
+    {
+      "regionId": "state:us:ne",
+      "name": "Nebraska",
+      "isoCode": "NE",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.4925,
+      "longitude": -99.9018
+    },
+    {
+      "regionId": "state:us:nv",
+      "name": "Nevada",
+      "isoCode": "NV",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 38.8026,
+      "longitude": -116.4194
+    },
+    {
+      "regionId": "state:us:nh",
+      "name": "New Hampshire",
+      "isoCode": "NH",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.1939,
+      "longitude": -71.5724
+    },
+    {
+      "regionId": "state:us:nj",
+      "name": "New Jersey",
+      "isoCode": "NJ",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.0583,
+      "longitude": -74.4057
+    },
+    {
+      "regionId": "state:us:nm",
+      "name": "New Mexico",
+      "isoCode": "NM",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 34.5199,
+      "longitude": -105.8701
+    },
+    {
+      "regionId": "state:us:ny",
+      "name": "New York",
+      "isoCode": "NY",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.2994,
+      "longitude": -74.2179,
+      "nextElection": "2026-11-03T00:00:00Z"
+    },
+    {
+      "regionId": "state:us:nc",
+      "name": "North Carolina",
+      "isoCode": "NC",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.7596,
+      "longitude": -79.0193
+    },
+    {
+      "regionId": "state:us:nd",
+      "name": "North Dakota",
+      "isoCode": "ND",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 47.5515,
+      "longitude": -101.002
+    },
+    {
+      "regionId": "state:us:oh",
+      "name": "Ohio",
+      "isoCode": "OH",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 40.4173,
+      "longitude": -82.9071
+    },
+    {
+      "regionId": "state:us:ok",
+      "name": "Oklahoma",
+      "isoCode": "OK",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.0078,
+      "longitude": -97.0929
+    },
+    {
+      "regionId": "state:us:or",
+      "name": "Oregon",
+      "isoCode": "OR",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.8041,
+      "longitude": -120.5542
+    },
+    {
+      "regionId": "state:us:pa",
+      "name": "Pennsylvania",
+      "isoCode": "PA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.2033,
+      "longitude": -77.1945
+    },
+    {
+      "regionId": "state:us:ri",
+      "name": "Rhode Island",
+      "isoCode": "RI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 41.5801,
+      "longitude": -71.4774
+    },
+    {
+      "regionId": "state:us:sc",
+      "name": "South Carolina",
+      "isoCode": "SC",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 33.8361,
+      "longitude": -81.1637
+    },
+    {
+      "regionId": "state:us:sd",
+      "name": "South Dakota",
+      "isoCode": "SD",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.9695,
+      "longitude": -99.9018
+    },
+    {
+      "regionId": "state:us:tn",
+      "name": "Tennessee",
+      "isoCode": "TN",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 35.5175,
+      "longitude": -86.5804
+    },
+    {
+      "regionId": "state:us:tx",
+      "name": "Texas",
+      "isoCode": "TX",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 31.9686,
+      "longitude": -99.9018,
+      "nextElection": "2026-11-03T00:00:00Z"
+    },
+    {
+      "regionId": "state:us:ut",
+      "name": "Utah",
+      "isoCode": "UT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 39.321,
+      "longitude": -111.0937
+    },
+    {
+      "regionId": "state:us:vt",
+      "name": "Vermont",
+      "isoCode": "VT",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 44.5588,
+      "longitude": -72.5778
+    },
+    {
+      "regionId": "state:us:va",
+      "name": "Virginia",
+      "isoCode": "VA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 37.4316,
+      "longitude": -78.6569
+    },
+    {
+      "regionId": "state:us:wa",
+      "name": "Washington",
+      "isoCode": "WA",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 47.7511,
+      "longitude": -120.7401
+    },
+    {
+      "regionId": "state:us:wv",
+      "name": "West Virginia",
+      "isoCode": "WV",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 38.5976,
+      "longitude": -80.4549
+    },
+    {
+      "regionId": "state:us:wi",
+      "name": "Wisconsin",
+      "isoCode": "WI",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.7844,
+      "longitude": -88.7879
+    },
+    {
+      "regionId": "state:us:wy",
+      "name": "Wyoming",
+      "isoCode": "WY",
+      "type": "state",
+      "parentRegionId": "country:us",
+      "latitude": 43.076,
+      "longitude": -107.2903
+    }
+  ],
+  "officeholders": [
+    {
+      "personId": "person:eg:president:sisi",
+      "name": "Abdel Fattah el-Sisi",
+      "title": "President of Egypt",
+      "regionId": "country:eg",
+      "partyName": "Independent",
+      "partyURL": null,
+      "startDate": "2014-06-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidency.eg",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:atl:mayor:dickens",
+      "name": "Andre Dickens",
+      "title": "Mayor of Atlanta",
+      "regionId": "city:us:atl",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-01-03T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.atlantaga.gov/government/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:jm:pm:holness",
+      "name": "Andrew Holness",
+      "title": "Prime Minister of Jamaica",
+      "regionId": "country:jm",
+      "partyName": "Jamaica Labour Party",
+      "partyURL": "https://jamaicalabourparty.com",
+      "startDate": "2016-03-03T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://opm.gov.jm",
+      "photoURL": null
+    },
+    {
+      "personId": "person:mx:president:amlo",
+      "name": "Andrés Manuel López Obrador",
+      "title": "President of Mexico",
+      "regionId": "country:mx",
+      "partyName": "MORENA",
+      "partyURL": "https://morena.org",
+      "startDate": "2018-12-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gob.mx/presidencia",
+      "photoURL": "https://www.gob.mx/presidencia/amlo.jpg"
+    },
+    {
+      "personId": "person:us:ky:governor:beshear",
+      "name": "Andy Beshear",
+      "title": "Governor of Kentucky",
+      "regionId": "state:us:ky",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-12-10T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.ky.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:au:pm:albanese",
+      "name": "Anthony Albanese",
+      "title": "Prime Minister of Australia",
+      "regionId": "country:au",
+      "partyName": "Labor Party",
+      "partyURL": "https://www.alp.org.au",
+      "startDate": "2022-05-23T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.pm.gov.au",
+      "photoURL": null
+    },
+    {
+      "personId": "person:gt:president:arevalo",
+      "name": "Bernardo Arévalo",
+      "title": "President of Guatemala",
+      "regionId": "country:gt",
+      "partyName": "Semilla",
+      "partyURL": null,
+      "startDate": "2024-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.guatemala.gob.gt",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:tn:governor:lee",
+      "name": "Bill Lee",
+      "title": "Governor of Tennessee",
+      "regionId": "state:us:tn",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-19T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.tn.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ng:president:tinubu",
+      "name": "Bola Tinubu",
+      "title": "President of Nigeria",
+      "regionId": "country:ng",
+      "partyName": "All Progressives Congress",
+      "partyURL": null,
+      "startDate": "2023-05-29T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://statehouse.gov.ng",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:id:governor:little",
+      "name": "Brad Little",
+      "title": "Governor of Idaho",
+      "regionId": "state:us:id",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.idaho.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:chi:mayor:johnson",
+      "name": "Brandon Johnson",
+      "title": "Mayor of Chicago",
+      "regionId": "city:us:chi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-05-15T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.chicago.gov/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ga:governor:kemp",
+      "name": "Brian Kemp",
+      "title": "Governor of Georgia",
+      "regionId": "state:us:ga",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.georgia.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:sea:mayor:harrell",
+      "name": "Bruce Harrell",
+      "title": "Mayor of Seattle",
+      "regionId": "city:us:sea",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.seattle.gov/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:phi:mayor:parker",
+      "name": "Cherelle Parker",
+      "title": "Mayor of Philadelphia",
+      "regionId": "city:us:phi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2024-01-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.phila.gov/the-mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nh:governor:sununu",
+      "name": "Chris Sununu",
+      "title": "Governor of New Hampshire",
+      "regionId": "state:us:nh",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-01-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.nh.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:nz:pm:luxon",
+      "name": "Christopher Luxon",
+      "title": "Prime Minister of New Zealand",
+      "regionId": "country:nz",
+      "partyName": "National Party",
+      "partyURL": "https://www.national.org.nz",
+      "startDate": "2023-11-27T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.beehive.govt.nz/minister/prime-minister",
+      "photoURL": null
+    },
+    {
+      "personId": "person:mx:mex:mayor:sheinbaum",
+      "name": "Claudia Sheinbaum",
+      "title": "Mayor of Mexico City",
+      "regionId": "city:mx:mex",
+      "partyName": "MORENA",
+      "partyURL": "https://morena.org",
+      "startDate": "2018-12-05T00:00:00Z",
+      "endDate": "2023-06-16T00:00:00Z",
+      "officialSiteURL": "https://www.cdmx.gob.mx",
+      "photoURL": null
+    },
+    {
+      "personId": "person:za:president:ramaphosa",
+      "name": "Cyril Ramaphosa",
+      "title": "President of South Africa",
+      "regionId": "country:za",
+      "partyName": "African National Congress",
+      "partyURL": "https://www.anc1912.org.za",
+      "startDate": "2018-02-15T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.thepresidency.gov.za",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ri:governor:mckee",
+      "name": "Dan McKee",
+      "title": "Governor of Rhode Island",
+      "regionId": "state:us:ri",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2021-03-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.ri.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:ab:premier:smith",
+      "name": "Danielle Smith",
+      "title": "Premier of Alberta",
+      "regionId": "province:ca:ab",
+      "partyName": "United Conservative Party",
+      "partyURL": "https://www.unitedconservative.ca",
+      "startDate": "2022-10-11T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.alberta.ca/premier",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:bc:premier:eby",
+      "name": "David Eby",
+      "title": "Premier of British Columbia",
+      "regionId": "province:ca:bc",
+      "partyName": "New Democratic Party",
+      "partyURL": "https://www.bcndp.ca",
+      "startDate": "2022-11-18T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gov.bc.ca/premier",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nd:governor:burgum",
+      "name": "Doug Burgum",
+      "title": "Governor of North Dakota",
+      "regionId": "state:us:nd",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2016-12-15T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.nd.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:on:premier:ford",
+      "name": "Doug Ford",
+      "title": "Premier of Ontario",
+      "regionId": "province:ca:on",
+      "partyName": "Progressive Conservative Party",
+      "partyURL": "https://ontariopc.ca",
+      "startDate": "2018-06-29T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.ontario.ca/page/premier",
+      "photoURL": null
+    },
+    {
+      "personId": "person:fr:president:macron",
+      "name": "Emmanuel Macron",
+      "title": "President of France",
+      "regionId": "country:fr",
+      "partyName": "Renaissance",
+      "partyURL": "https://renaissance.fr",
+      "startDate": "2017-05-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.elysee.fr",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nyc:mayor:adams",
+      "name": "Eric Adams",
+      "title": "Mayor of New York City",
+      "regionId": "city:us:nyc",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.nyc.gov/office-of-the-mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:in:governor:holcomb",
+      "name": "Eric Holcomb",
+      "title": "Governor of Indiana",
+      "regionId": "state:us:in",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-01-09T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.in.gov/gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:mia:mayor:suarez",
+      "name": "Francis Suarez",
+      "title": "Mayor of Miami",
+      "regionId": "city:us:mia",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-11-13T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.miamigov.com/Government/Mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:qc:premier:legault",
+      "name": "François Legault",
+      "title": "Premier of Quebec",
+      "regionId": "province:ca:qc",
+      "partyName": "Coalition Avenir Québec",
+      "partyURL": "https://coalitionavenirquebec.org",
+      "startDate": "2018-10-18T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.quebec.ca/premier-ministre",
+      "photoURL": null
+    },
+    {
+      "personId": "person:jp:pm:kishida",
+      "name": "Fumio Kishida",
+      "title": "Prime Minister of Japan",
+      "regionId": "country:jp",
+      "partyName": "Liberal Democratic Party",
+      "partyURL": "https://www.jimin.jp",
+      "startDate": "2021-10-04T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.kantei.go.jp",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ca:governor:newsom",
+      "name": "Gavin Newsom",
+      "title": "Governor of California",
+      "regionId": "state:us:ca",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gov.ca.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:it:pm:meloni",
+      "name": "Giorgia Meloni",
+      "title": "Prime Minister of Italy",
+      "regionId": "country:it",
+      "partyName": "Brothers of Italy",
+      "partyURL": "https://www.fratelli-italia.it",
+      "startDate": "2022-10-22T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governo.it",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:va:governor:youngkin",
+      "name": "Glenn Youngkin",
+      "title": "Governor of Virginia",
+      "regionId": "state:us:va",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2022-01-15T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.virginia.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:tx:governor:abbott",
+      "name": "Greg Abbott",
+      "title": "Governor of Texas",
+      "regionId": "state:us:tx",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2015-01-20T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.texas.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:mt:governor:gianforte",
+      "name": "Greg Gianforte",
+      "title": "Governor of Montana",
+      "regionId": "state:us:mt",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2021-01-04T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.mt.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:mi:governor:whitmer",
+      "name": "Gretchen Whitmer",
+      "title": "Governor of Michigan",
+      "regionId": "state:us:mi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.michigan.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:sc:governor:mcmaster",
+      "name": "Henry McMaster",
+      "title": "Governor of South Carolina",
+      "regionId": "state:us:sc",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-01-24T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.sc.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:il:governor:pritzker",
+      "name": "JB Pritzker",
+      "title": "Governor of Illinois",
+      "regionId": "state:us:il",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.illinois.gov/gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:me:governor:mills",
+      "name": "Janet Mills",
+      "title": "Governor of Maine",
+      "regionId": "state:us:me",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.maine.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:co:governor:polis",
+      "name": "Jared Polis",
+      "title": "Governor of Colorado",
+      "regionId": "state:us:co",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.colorado.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ar:president:milei",
+      "name": "Javier Milei",
+      "title": "President of Argentina",
+      "regionId": "country:ar",
+      "partyName": "La Libertad Avanza",
+      "partyURL": null,
+      "startDate": "2023-12-10T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.argentina.gob.ar",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:wa:governor:inslee",
+      "name": "Jay Inslee",
+      "title": "Governor of Washington",
+      "regionId": "state:us:wa",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2013-01-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.wa.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:la:governor:landry",
+      "name": "Jeff Landry",
+      "title": "Governor of Louisiana",
+      "regionId": "state:us:la",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2024-01-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.louisiana.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:wv:governor:justice",
+      "name": "Jim Justice",
+      "title": "Governor of West Virginia",
+      "regionId": "state:us:wv",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-01-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.wv.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ne:governor:pillen",
+      "name": "Jim Pillen",
+      "title": "Governor of Nebraska",
+      "regionId": "state:us:ne",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2023-01-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.nebraska.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:president:biden",
+      "name": "Joe Biden",
+      "title": "President of the United States",
+      "regionId": "country:us",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2021-01-20T00:00:00Z",
+      "endDate": "2025-01-20T00:00:00Z",
+      "officialSiteURL": "https://www.whitehouse.gov",
+      "photoURL": "https://www.whitehouse.gov/wp-content/uploads/2021/04/P20210303AS-1901.jpg"
+    },
+    {
+      "personId": "person:us:nv:governor:lombardo",
+      "name": "Joe Lombardo",
+      "title": "Governor of Nevada",
+      "regionId": "state:us:nv",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2023-01-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.nv.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:de:governor:carney",
+      "name": "John Carney",
+      "title": "Governor of Delaware",
+      "regionId": "state:us:de",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2017-01-17T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.delaware.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:hou:mayor:whitmire",
+      "name": "John Whitmire",
+      "title": "Mayor of Houston",
+      "regionId": "city:us:hou",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2024-01-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.houstontx.gov/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:hi:governor:green",
+      "name": "Josh Green",
+      "title": "Governor of Hawaii",
+      "regionId": "state:us:hi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-12-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.hawaii.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:pa:governor:shapiro",
+      "name": "Josh Shapiro",
+      "title": "Governor of Pennsylvania",
+      "regionId": "state:us:pa",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-01-17T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.pa.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:pm:trudeau",
+      "name": "Justin Trudeau",
+      "title": "Prime Minister of Canada",
+      "regionId": "country:ca",
+      "partyName": "Liberal Party",
+      "partyURL": "https://liberal.ca",
+      "startDate": "2015-11-04T00:00:00Z",
+      "endDate": "2025-03-24T00:00:00Z",
+      "officialSiteURL": "https://pm.gc.ca",
+      "photoURL": "https://pm.gc.ca/sites/pm/files/media/pm_trudeau.jpg"
+    },
+    {
+      "personId": "person:us:la:mayor:bass",
+      "name": "Karen Bass",
+      "title": "Mayor of Los Angeles",
+      "regionId": "city:us:la",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2022-12-12T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.lamayor.org",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:phx:mayor:gallego",
+      "name": "Kate Gallego",
+      "title": "Mayor of Phoenix",
+      "regionId": "city:us:phx",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-03-21T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.phoenix.gov/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ny:governor:hochul",
+      "name": "Kathy Hochul",
+      "title": "Governor of New York",
+      "regionId": "state:us:ny",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2021-08-24T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.ny.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:az:governor:hobbs",
+      "name": "Katie Hobbs",
+      "title": "Governor of Arizona",
+      "regionId": "state:us:az",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-01-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://azgovernor.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:al:governor:ivey",
+      "name": "Kay Ivey",
+      "title": "Governor of Alabama",
+      "regionId": "state:us:al",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-04-10T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.alabama.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:van:mayor:sim",
+      "name": "Ken Sim",
+      "title": "Mayor of Vancouver",
+      "regionId": "city:ca:van",
+      "partyName": "ABC Vancouver",
+      "partyURL": null,
+      "startDate": "2022-11-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://vancouver.ca/your-government/mayor-of-vancouver",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ok:governor:stitt",
+      "name": "Kevin Stitt",
+      "title": "Governor of Oklahoma",
+      "regionId": "state:us:ok",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.ok.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ia:governor:reynolds",
+      "name": "Kim Reynolds",
+      "title": "Governor of Iowa",
+      "regionId": "state:us:ia",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-05-24T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.iowa.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:sd:governor:noem",
+      "name": "Kristi Noem",
+      "title": "Governor of South Dakota",
+      "regionId": "state:us:sd",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.sd.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ks:governor:kelly",
+      "name": "Laura Kelly",
+      "title": "Governor of Kansas",
+      "regionId": "state:us:ks",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.kansas.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:pa:president:cortizo",
+      "name": "Laurentino Cortizo",
+      "title": "President of Panama",
+      "regionId": "country:pa",
+      "partyName": "Democratic Revolutionary Party",
+      "partyURL": null,
+      "startDate": "2019-07-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.gob.pa",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:sf:mayor:breed",
+      "name": "London Breed",
+      "title": "Mayor of San Francisco",
+      "regionId": "city:us:sf",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2018-07-11T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://sfmayor.org",
+      "photoURL": null
+    },
+    {
+      "personId": "person:do:president:abinader",
+      "name": "Luis Abinader",
+      "title": "President of Dominican Republic",
+      "regionId": "country:do",
+      "partyName": "Modern Revolutionary Party",
+      "partyURL": null,
+      "startDate": "2020-08-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://presidencia.gob.do",
+      "photoURL": null
+    },
+    {
+      "personId": "person:br:president:lula",
+      "name": "Luiz Inácio Lula da Silva",
+      "title": "President of Brazil",
+      "regionId": "country:br",
+      "partyName": "Workers' Party",
+      "partyURL": "https://pt.org.br",
+      "startDate": "2023-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gov.br/planalto",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:wy:governor:gordon",
+      "name": "Mark Gordon",
+      "title": "Governor of Wyoming",
+      "regionId": "state:us:wy",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.wyo.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ma:governor:healey",
+      "name": "Maura Healey",
+      "title": "Governor of Massachusetts",
+      "regionId": "state:us:ma",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-01-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.mass.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nm:governor:grisham",
+      "name": "Michelle Lujan Grisham",
+      "title": "Governor of New Mexico",
+      "regionId": "state:us:nm",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.governor.state.nm.us",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:bos:mayor:wu",
+      "name": "Michelle Wu",
+      "title": "Mayor of Boston",
+      "regionId": "city:us:bos",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2021-11-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.boston.gov/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:cu:president:diaz-canel",
+      "name": "Miguel Díaz-Canel",
+      "title": "President of Cuba",
+      "regionId": "country:cu",
+      "partyName": "Communist Party of Cuba",
+      "partyURL": null,
+      "startDate": "2018-04-19T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.gob.cu",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:oh:governor:dewine",
+      "name": "Mike DeWine",
+      "title": "Governor of Ohio",
+      "regionId": "state:us:oh",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.ohio.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ak:governor:dunleavy",
+      "name": "Mike Dunleavy",
+      "title": "Governor of Alaska",
+      "regionId": "state:us:ak",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2018-12-03T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://gov.alaska.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:mo:governor:parson",
+      "name": "Mike Parson",
+      "title": "Governor of Missouri",
+      "regionId": "state:us:mo",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2018-06-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.mo.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:dc:mayor:bowser",
+      "name": "Muriel Bowser",
+      "title": "Mayor of Washington D.C.",
+      "regionId": "city:us:dc",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2015-01-02T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://mayor.dc.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:in:pm:modi",
+      "name": "Narendra Modi",
+      "title": "Prime Minister of India",
+      "regionId": "country:in",
+      "partyName": "Bharatiya Janata Party",
+      "partyURL": "https://www.bjp.org",
+      "startDate": "2014-05-26T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.pmindia.gov.in",
+      "photoURL": null
+    },
+    {
+      "personId": "person:sv:president:bukele",
+      "name": "Nayib Bukele",
+      "title": "President of El Salvador",
+      "regionId": "country:sv",
+      "partyName": "Nuevas Ideas",
+      "partyURL": "https://nuevasideas.sv",
+      "startDate": "2019-06-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.gob.sv",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ct:governor:lamont",
+      "name": "Ned Lamont",
+      "title": "Governor of Connecticut",
+      "regionId": "state:us:ct",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-09T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://portal.ct.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:de:chancellor:scholz",
+      "name": "Olaf Scholz",
+      "title": "Chancellor of Germany",
+      "regionId": "country:de",
+      "partyName": "Social Democratic Party",
+      "partyURL": "https://www.spd.de",
+      "startDate": "2021-12-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.bundeskanzler.de",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:tor:mayor:chow",
+      "name": "Olivia Chow",
+      "title": "Mayor of Toronto",
+      "regionId": "city:ca:tor",
+      "partyName": "Independent",
+      "partyURL": null,
+      "startDate": "2023-07-12T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.toronto.ca/city-government/council/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nj:governor:murphy",
+      "name": "Phil Murphy",
+      "title": "Governor of New Jersey",
+      "regionId": "state:us:nj",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2018-01-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://nj.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:vt:governor:scott",
+      "name": "Phil Scott",
+      "title": "Governor of Vermont",
+      "regionId": "state:us:vt",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2017-01-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.vermont.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:gb:pm:sunak",
+      "name": "Rishi Sunak",
+      "title": "Prime Minister of United Kingdom",
+      "regionId": "country:gb",
+      "partyName": "Conservative Party",
+      "partyURL": "https://www.conservatives.com",
+      "startDate": "2022-10-25T00:00:00Z",
+      "endDate": "2024-07-05T00:00:00Z",
+      "officialSiteURL": "https://www.gov.uk/government/ministers/prime-minister",
+      "photoURL": null
+    },
+    {
+      "personId": "person:cr:president:chaves",
+      "name": "Rodrigo Chaves",
+      "title": "President of Costa Rica",
+      "regionId": "country:cr",
+      "partyName": "Social Democratic Progress Party",
+      "partyURL": null,
+      "startDate": "2022-05-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.presidencia.go.cr",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:fl:governor:desantis",
+      "name": "Ron DeSantis",
+      "title": "Governor of Florida",
+      "regionId": "state:us:fl",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2019-01-08T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.flgov.com",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:nc:governor:cooper",
+      "name": "Roy Cooper",
+      "title": "Governor of North Carolina",
+      "regionId": "state:us:nc",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2017-01-01T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.nc.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ar:governor:sanders",
+      "name": "Sarah Huckabee Sanders",
+      "title": "Governor of Arkansas",
+      "regionId": "state:us:ar",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2023-01-10T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.arkansas.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ut:governor:cox",
+      "name": "Spencer Cox",
+      "title": "Governor of Utah",
+      "regionId": "state:us:ut",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2021-01-04T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.utah.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:ms:governor:reeves",
+      "name": "Tate Reeves",
+      "title": "Governor of Mississippi",
+      "regionId": "state:us:ms",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2020-01-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governorreeves.ms.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:mn:governor:walz",
+      "name": "Tim Walz",
+      "title": "Governor of Minnesota",
+      "regionId": "state:us:mn",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://mn.gov/governor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:or:governor:kotek",
+      "name": "Tina Kotek",
+      "title": "Governor of Oregon",
+      "regionId": "state:us:or",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-01-09T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.oregon.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:wi:governor:evers",
+      "name": "Tony Evers",
+      "title": "Governor of Wisconsin",
+      "regionId": "state:us:wi",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2019-01-07T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://evers.wi.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ca:mtl:mayor:plante",
+      "name": "Valérie Plante",
+      "title": "Mayor of Montreal",
+      "regionId": "city:ca:mtl",
+      "partyName": "Projet Montréal",
+      "partyURL": "https://www.projetmontreal.org",
+      "startDate": "2017-11-16T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://montreal.ca/en/mayor",
+      "photoURL": null
+    },
+    {
+      "personId": "person:ua:president:zelensky",
+      "name": "Volodymyr Zelensky",
+      "title": "President of Ukraine",
+      "regionId": "country:ua",
+      "partyName": "Servant of the People",
+      "partyURL": null,
+      "startDate": "2019-05-20T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.president.gov.ua",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:md:governor:moore",
+      "name": "Wes Moore",
+      "title": "Governor of Maryland",
+      "regionId": "state:us:md",
+      "partyName": "Democratic Party",
+      "partyURL": "https://democrats.org",
+      "startDate": "2023-01-18T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://governor.maryland.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:cn:president:xi",
+      "name": "Xi Jinping",
+      "title": "President of China",
+      "regionId": "country:cn",
+      "partyName": "Communist Party of China",
+      "partyURL": null,
+      "startDate": "2013-03-14T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "http://www.gov.cn",
+      "photoURL": null
+    },
+    {
+      "personId": "person:kr:president:yoon",
+      "name": "Yoon Suk Yeol",
+      "title": "President of South Korea",
+      "regionId": "country:kr",
+      "partyName": "People Power Party",
+      "partyURL": null,
+      "startDate": "2022-05-10T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.president.go.kr",
+      "photoURL": null
+    },
+    {
+      "personId": "person:us:president:trump",
+      "name": "Donald Trump",
+      "title": "President of the United States",
+      "regionId": "country:us",
+      "partyName": "Republican Party",
+      "partyURL": "https://gop.com",
+      "startDate": "2025-01-20T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.whitehouse.gov",
+      "photoURL": null
+    },
+    {
+      "personId": "person:gb:pm:starmer",
+      "name": "Keir Starmer",
+      "title": "Prime Minister of United Kingdom",
+      "regionId": "country:gb",
+      "partyName": "Labour Party",
+      "partyURL": "https://labour.org.uk",
+      "startDate": "2024-07-05T00:00:00Z",
+      "endDate": null,
+      "officialSiteURL": "https://www.gov.uk/government/ministers/prime-minister",
+      "photoURL": null
+    }
+  ],
+  "promises": [
+    {
+      "promiseId": "promise:biden:infrastructure:2021",
+      "personId": "person:us:president:biden",
+      "regionId": "country:us",
+      "dateMade": "2021-03-31T00:00:00Z",
+      "context": "Unveiling the American Jobs Plan",
+      "quoteExact": "We're going to rebuild America's infrastructure and create millions of good-paying union jobs in the process.",
+      "summary": "Pass a major infrastructure bill to rebuild roads, bridges, and create jobs",
+      "tagsJSON": "[\"infrastructure\", \"jobs\", \"economy\"]",
+      "dueBy": "2024-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2021/03/31/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"infrastructure\", \"employment\"]",
+      "effectInputsJSON": null,
+      "administrationStatus": "previous"
+    },
+    {
+      "promiseId": "promise:trudeau:climate:2021",
+      "personId": "person:ca:pm:trudeau",
+      "regionId": "country:ca",
+      "dateMade": "2021-04-22T00:00:00Z",
+      "context": "Earth Day Climate Summit commitment",
+      "quoteExact": "Canada will reduce emissions by 40-45% below 2005 levels by 2030.",
+      "summary": "Reduce Canada's greenhouse gas emissions by 40-45% by 2030",
+      "tagsJSON": "[\"climate\", \"environment\", \"emissions\"]",
+      "dueBy": "2030-12-31T00:00:00Z",
+      "sourcePrimary": "https://pm.gc.ca/en/news/statements/2021/04/22/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"climate\", \"environment\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:amlo:poverty:2023",
+      "personId": "person:mx:president:amlo",
+      "regionId": "country:mx",
+      "dateMade": "2023-01-01T00:00:00Z",
+      "context": "New Year's address on poverty reduction",
+      "quoteExact": "We will lift 5 million more Mexicans out of poverty through expanded social programs.",
+      "summary": "Expand social programs to reduce poverty",
+      "tagsJSON": "[\"poverty\", \"social_programs\", \"welfare\"]",
+      "dueBy": "2024-12-01T00:00:00Z",
+      "sourcePrimary": "https://www.gob.mx/presidencia/poverty-reduction",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"poverty_reduction\", \"social_welfare\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:newsom:housing:2023",
+      "personId": "person:us:ca:governor:newsom",
+      "regionId": "state:us:ca",
+      "dateMade": "2023-01-10T00:00:00Z",
+      "context": "State of the State address",
+      "quoteExact": "We will build 500,000 new homes annually to address the housing crisis.",
+      "summary": "Build 500,000 new homes annually in California",
+      "tagsJSON": "[\"housing\", \"affordability\", \"construction\"]",
+      "dueBy": "2027-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.gov.ca.gov/2023/01/10/state-of-the-state/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"housing\", \"urban_development\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:abbott:border:2023",
+      "personId": "person:us:tx:governor:abbott",
+      "regionId": "state:us:tx",
+      "dateMade": "2023-02-15T00:00:00Z",
+      "context": "Border security announcement",
+      "quoteExact": "We will deploy additional National Guard troops and build more border barriers to secure Texas.",
+      "summary": "Enhance border security with more troops and barriers",
+      "tagsJSON": "[\"border\", \"security\", \"immigration\"]",
+      "dueBy": "2024-12-31T00:00:00Z",
+      "sourcePrimary": "https://gov.texas.gov/news/post/governor-abbott-announces-border-mission",
+      "sourceType": "gov_release",
+      "policyTagsJSON": "[\"border_security\", \"immigration\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:whitmer:infrastructure:2023",
+      "personId": "person:us:mi:governor:whitmer",
+      "regionId": "state:us:mi",
+      "dateMade": "2023-02-20T00:00:00Z",
+      "context": "State infrastructure plan",
+      "quoteExact": "We will fix 100 bridges and repair 2,000 miles of roads by 2025.",
+      "summary": "Major road and bridge repair initiative",
+      "tagsJSON": "[\"infrastructure\", \"transportation\", \"roads\"]",
+      "dueBy": "2025-12-31T00:00:00Z",
+      "sourcePrimary": "https://www.michigan.gov/governor/infrastructure",
+      "sourceType": "gov_release",
+      "policyTagsJSON": "[\"infrastructure\", \"transportation\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:zelensky:victory:2023",
+      "personId": "person:ua:president:zelensky",
+      "regionId": "country:ua",
+      "dateMade": "2023-02-24T00:00:00Z",
+      "context": "One year anniversary of war speech",
+      "quoteExact": "We will liberate all our territories and restore peace to Ukraine.",
+      "summary": "Complete liberation of Ukrainian territories",
+      "tagsJSON": "[\"defense\", \"sovereignty\", \"war\"]",
+      "dueBy": null,
+      "sourcePrimary": "https://www.president.gov.ua/en/news",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"defense\", \"national_security\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:ford:healthcare:2023",
+      "personId": "person:ca:on:premier:ford",
+      "regionId": "province:ca:on",
+      "dateMade": "2023-03-01T00:00:00Z",
+      "context": "Healthcare expansion announcement",
+      "quoteExact": "We will add 3,000 new hospital beds and hire 6,000 more nurses across Ontario.",
+      "summary": "Expand healthcare capacity with new beds and nursing staff",
+      "tagsJSON": "[\"healthcare\", \"hospitals\", \"nursing\"]",
+      "dueBy": "2025-12-31T00:00:00Z",
+      "sourcePrimary": "https://news.ontario.ca/en/release/healthcare-expansion",
+      "sourceType": "gov_release",
+      "policyTagsJSON": "[\"healthcare\", \"public_health\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "personId": "person:ca:qc:premier:legault",
+      "promiseId": "promise:legault:language:2023",
+      "regionId": "province:ca:qc",
+      "dateMade": "2023-03-15T00:00:00Z",
+      "context": "French language protection announcement",
+      "quoteExact": "We will strengthen Bill 96 and ensure French remains the primary language of business and education in Quebec.",
+      "summary": "Strengthen French language protection laws",
+      "tagsJSON": "[\"language\", \"culture\", \"education\"]",
+      "dueBy": "2024-12-31T00:00:00Z",
+      "sourcePrimary": "https://www.quebec.ca/premier-ministre/language",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"language_policy\", \"cultural_preservation\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:adams:crime:2023",
+      "personId": "person:us:nyc:mayor:adams",
+      "regionId": "city:us:nyc",
+      "dateMade": "2023-04-10T00:00:00Z",
+      "context": "Public safety initiative announcement",
+      "quoteExact": "We will reduce major crimes by 20% and add 2,000 more officers to patrol the subway system.",
+      "summary": "Reduce crime and increase subway patrol officers",
+      "tagsJSON": "[\"crime\", \"public_safety\", \"transit\"]",
+      "dueBy": "2024-12-31T00:00:00Z",
+      "sourcePrimary": "https://www.nyc.gov/office-of-the-mayor/news/public-safety",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"public_safety\", \"law_enforcement\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:desantis:education:2023",
+      "personId": "person:us:fl:governor:desantis",
+      "regionId": "state:us:fl",
+      "dateMade": "2023-05-01T00:00:00Z",
+      "context": "Education reform announcement",
+      "quoteExact": "We will raise teacher starting salaries to $65,000 and expand school choice programs statewide.",
+      "summary": "Increase teacher pay and expand school choice",
+      "tagsJSON": "[\"education\", \"teachers\", \"school_choice\"]",
+      "dueBy": "2025-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.flgov.com/2023/05/01/education-reform",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"education\", \"teacher_compensation\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:modi:economy:2023",
+      "personId": "person:in:pm:modi",
+      "regionId": "country:in",
+      "dateMade": "2023-08-15T00:00:00Z",
+      "context": "Independence Day speech",
+      "quoteExact": "India will become a $5 trillion economy and a developed nation by 2047.",
+      "summary": "Make India a $5 trillion economy",
+      "tagsJSON": "[\"economy\", \"development\", \"growth\"]",
+      "dueBy": "2047-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.pmindia.gov.in",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"economic_development\", \"growth\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:ford:housing:2023",
+      "personId": "person:ca:on:premier:ford",
+      "regionId": "province:ca:on",
+      "dateMade": "2023-06-15T00:00:00Z",
+      "context": "Housing affordability plan",
+      "quoteExact": "We will build 1.5 million homes by 2031 to address Ontario's housing crisis.",
+      "summary": "Build 1.5 million new homes by 2031",
+      "tagsJSON": "[\"housing\", \"construction\", \"affordability\"]",
+      "dueBy": "2031-12-31T00:00:00Z",
+      "sourcePrimary": "https://news.ontario.ca/housing-plan",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"housing\", \"urban_development\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:ford:transit:2023",
+      "personId": "person:ca:on:premier:ford",
+      "regionId": "province:ca:on",
+      "dateMade": "2023-04-20T00:00:00Z",
+      "context": "Transit expansion announcement",
+      "quoteExact": "We're building the largest transit expansion in North American history with new subway lines.",
+      "summary": "Expand Toronto transit with new subway lines",
+      "tagsJSON": "[\"transit\", \"infrastructure\", \"transportation\"]",
+      "dueBy": "2030-12-31T00:00:00Z",
+      "sourcePrimary": "https://news.ontario.ca/transit",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"transportation\", \"infrastructure\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:trump:border:2025",
+      "personId": "person:us:president:trump",
+      "regionId": "country:us",
+      "dateMade": "2025-01-20T00:00:00Z",
+      "context": "Inauguration speech",
+      "quoteExact": "We will complete the border wall and implement the largest deportation operation in American history.",
+      "summary": "Complete border wall and increase deportations",
+      "tagsJSON": "[\"immigration\", \"border\", \"security\"]",
+      "dueBy": "2029-01-20T00:00:00Z",
+      "sourcePrimary": "https://www.whitehouse.gov/briefing-room/",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"immigration\", \"border_security\"]",
+      "effectInputsJSON": null
+    },
+    {
+      "promiseId": "promise:trump:economy:2025",
+      "personId": "person:us:president:trump",
+      "regionId": "country:us",
+      "dateMade": "2025-01-20T00:00:00Z",
+      "context": "Economic policy announcement",
+      "quoteExact": "We will cut taxes, bring manufacturing back to America, and achieve energy independence.",
+      "summary": "Tax cuts and manufacturing revival",
+      "tagsJSON": "[\"economy\", \"taxes\", \"manufacturing\"]",
+      "dueBy": "2027-01-01T00:00:00Z",
+      "sourcePrimary": "https://www.whitehouse.gov",
+      "sourceType": "official_statement",
+      "policyTagsJSON": "[\"economy\", \"manufacturing\"]",
+      "effectInputsJSON": null
+    }
+  ],
+  "evidence": [],
+  "statusSnapshots": [],
+  "industries": [
+    {
+      "industryId": "ind:tech",
+      "code": "TECH",
+      "name": "Technology"
+    },
+    {
+      "industryId": "ind:healthcare",
+      "code": "HLTH",
+      "name": "Healthcare"
+    },
+    {
+      "industryId": "ind:energy",
+      "code": "ENRG",
+      "name": "Energy"
+    },
+    {
+      "industryId": "ind:finance",
+      "code": "FIN",
+      "name": "Finance"
+    },
+    {
+      "industryId": "ind:realestate",
+      "code": "RE",
+      "name": "Real Estate"
+    },
+    {
+      "industryId": "ind:manufacturing",
+      "code": "MFG",
+      "name": "Manufacturing"
+    },
+    {
+      "industryId": "ind:retail",
+      "code": "RTL",
+      "name": "Retail"
+    },
+    {
+      "industryId": "ind:transportation",
+      "code": "TRNS",
+      "name": "Transportation"
+    },
+    {
+      "industryId": "ind:agriculture",
+      "code": "AGRI",
+      "name": "Agriculture"
+    },
+    {
+      "industryId": "ind:defense",
+      "code": "DEF",
+      "name": "Defense"
+    }
+  ],
+  "policyTags": [
+    {
+      "tag": "infrastructure",
+      "description": "Roads, bridges, and public works"
+    },
+    {
+      "tag": "healthcare",
+      "description": "Public health and medical services"
+    },
+    {
+      "tag": "education",
+      "description": "Schools and educational programs"
+    },
+    {
+      "tag": "housing",
+      "description": "Housing development and affordability"
+    },
+    {
+      "tag": "climate",
+      "description": "Climate change and environmental policy"
+    },
+    {
+      "tag": "economy",
+      "description": "Economic growth and fiscal policy"
+    },
+    {
+      "tag": "defense",
+      "description": "National security and defense"
+    },
+    {
+      "tag": "immigration",
+      "description": "Immigration and border policy"
+    },
+    {
+      "tag": "technology",
+      "description": "Technology and innovation policy"
+    },
+    {
+      "tag": "transportation",
+      "description": "Transportation and transit systems"
+    }
+  ],
+  "policyTagIndustries": [
+    {
+      "tag": "infrastructure",
+      "industryId": "ind:realestate",
+      "weight": 1.5
+    },
+    {
+      "tag": "infrastructure",
+      "industryId": "ind:manufacturing",
+      "weight": 1.2
+    },
+    {
+      "tag": "healthcare",
+      "industryId": "ind:healthcare",
+      "weight": 2.0
+    },
+    {
+      "tag": "housing",
+      "industryId": "ind:realestate",
+      "weight": 2.0
+    },
+    {
+      "tag": "housing",
+      "industryId": "ind:manufacturing",
+      "weight": 1.0
+    },
+    {
+      "tag": "climate",
+      "industryId": "ind:energy",
+      "weight": 2.0
+    },
+    {
+      "tag": "economy",
+      "industryId": "ind:finance",
+      "weight": 1.5
+    },
+    {
+      "tag": "defense",
+      "industryId": "ind:defense",
+      "weight": 2.0
+    },
+    {
+      "tag": "technology",
+      "industryId": "ind:tech",
+      "weight": 2.0
+    },
+    {
+      "tag": "transportation",
+      "industryId": "ind:transportation",
+      "weight": 2.0
+    }
+  ],
+  "promiseIndustryImpacts": [
+    {
+      "promiseId": "promise:biden:infrastructure:2021",
+      "industryId": "ind:realestate",
+      "direction": 1,
+      "impactClass": "significant",
+      "pctLow": 2.0,
+      "pctHigh": 5.0,
+      "confidence": 0.8,
+      "rationale": "Infrastructure improvements increase property values and development opportunities"
+    },
+    {
+      "promiseId": "promise:biden:infrastructure:2021",
+      "industryId": "ind:manufacturing",
+      "direction": 1,
+      "impactClass": "significant",
+      "pctLow": 3.0,
+      "pctHigh": 7.0,
+      "confidence": 0.9,
+      "rationale": "Infrastructure projects require manufactured materials and equipment"
+    },
+    {
+      "promiseId": "promise:trudeau:climate:2021",
+      "industryId": "ind:energy",
+      "direction": -1,
+      "impactClass": "significant",
+      "pctLow": -5.0,
+      "pctHigh": -2.0,
+      "confidence": 0.7,
+      "rationale": "Emissions reduction targets impact traditional energy sectors"
+    },
+    {
+      "promiseId": "promise:trudeau:climate:2021",
+      "industryId": "ind:tech",
+      "direction": 1,
+      "impactClass": "moderate",
+      "pctLow": 1.0,
+      "pctHigh": 3.0,
+      "confidence": 0.6,
+      "rationale": "Climate goals drive investment in clean technology"
+    },
+    {
+      "promiseId": "promise:ford:healthcare:2023",
+      "industryId": "ind:healthcare",
+      "direction": 1,
+      "impactClass": "significant",
+      "pctLow": 3.0,
+      "pctHigh": 6.0,
+      "confidence": 0.85,
+      "rationale": "Direct investment in healthcare infrastructure and staffing"
+    },
+    {
+      "promiseId": "promise:ford:housing:2023",
+      "industryId": "ind:realestate",
+      "direction": 1,
+      "impactClass": "transformational",
+      "pctLow": 5.0,
+      "pctHigh": 10.0,
+      "confidence": 0.9,
+      "rationale": "Massive housing construction will boost real estate sector"
+    },
+    {
+      "promiseId": "promise:ford:housing:2023",
+      "industryId": "ind:manufacturing",
+      "direction": 1,
+      "impactClass": "significant",
+      "pctLow": 2.0,
+      "pctHigh": 4.0,
+      "confidence": 0.8,
+      "rationale": "Construction materials demand will increase manufacturing"
+    },
+    {
+      "promiseId": "promise:ford:transit:2023",
+      "industryId": "ind:transportation",
+      "direction": 1,
+      "impactClass": "transformational",
+      "pctLow": 4.0,
+      "pctHigh": 8.0,
+      "confidence": 0.85,
+      "rationale": "Major transit expansion directly benefits transportation sector"
+    },
+    {
+      "promiseId": "promise:ford:transit:2023",
+      "industryId": "ind:realestate",
+      "direction": 1,
+      "impactClass": "moderate",
+      "pctLow": 1.0,
+      "pctHigh": 3.0,
+      "confidence": 0.7,
+      "rationale": "Transit expansion increases property values near stations"
+    },
+    {
+      "promiseId": "promise:newsom:housing:2023",
+      "industryId": "ind:realestate",
+      "direction": 1,
+      "impactClass": "transformational",
+      "pctLow": 4.0,
+      "pctHigh": 8.0,
+      "confidence": 0.85,
+      "rationale": "500,000 homes annually will transform California real estate"
+    },
+    {
+      "promiseId": "promise:abbott:border:2023",
+      "industryId": "ind:defense",
+      "direction": 1,
+      "impactClass": "moderate",
+      "pctLow": 1.0,
+      "pctHigh": 2.0,
+      "confidence": 0.7,
+      "rationale": "Border security increases defense contractor opportunities"
+    },
+    {
+      "promiseId": "promise:desantis:education:2023",
+      "industryId": "ind:tech",
+      "direction": 1,
+      "impactClass": "minor",
+      "pctLow": 0.5,
+      "pctHigh": 1.5,
+      "confidence": 0.6,
+      "rationale": "School choice may increase edtech adoption"
+    },
+    {
+      "promiseId": "promise:whitmer:infrastructure:2023",
+      "industryId": "ind:manufacturing",
+      "direction": 1,
+      "impactClass": "significant",
+      "pctLow": 2.0,
+      "pctHigh": 4.0,
+      "confidence": 0.8,
+      "rationale": "Michigan's auto industry benefits from improved infrastructure"
+    },
+    {
+      "promiseId": "promise:adams:crime:2023",
+      "industryId": "ind:retail",
+      "direction": 1,
+      "impactClass": "moderate",
+      "pctLow": 1.0,
+      "pctHigh": 2.0,
+      "confidence": 0.65,
+      "rationale": "Reduced crime improves retail business environment"
+    },
+    {
+      "promiseId": "promise:adams:crime:2023",
+      "industryId": "ind:realestate",
+      "direction": 1,
+      "impactClass": "minor",
+      "pctLow": 0.5,
+      "pctHigh": 1.5,
+      "confidence": 0.6,
+      "rationale": "Safer neighborhoods increase property values"
+    }
+  ]
+}
