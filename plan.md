@@ -305,7 +305,7 @@ If a primary source is missing → reject with a reason.
 
 Prompt template (extraction)
 
-You are extracting official political promises for GPT (Government Promises Tracker).
+You are extracting official political promises for GovPT (Government Promises Tracker).
 Rules: Use only primary sources (official party/government sites, official PDFs, official candidate channels). Quote verbatim. If any item lacks a primary source, return an error.
 Input:
 

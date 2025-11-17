@@ -5,7 +5,7 @@
 The error `Cannot find 'DatabaseManager' in scope` occurs because the source files exist but **aren't added to the Xcode target**.
 
 Only 2 files are in the target:
-- ✅ GPTApp.swift
+- ✅ GovPTApp.swift
 - ✅ ContentView.swift
 
 But 14 files are missing:
@@ -23,17 +23,17 @@ But 14 files are missing:
 1. **Open Xcode**:
    ```bash
    cd /Users/ubongjosiah/gpt_iphone
-   open GPT.xcodeproj
+   open GovPT.xcodeproj
    ```
 
 2. **Add All Missing Files**:
-   - In Xcode's left sidebar (Project Navigator), right-click on the "GPT" folder
-   - Select "Add Files to GPT..."
-   - Navigate to the `GPT` folder
+   - In Xcode's left sidebar (Project Navigator), right-click on the "GovPT" folder
+   - Select "Add Files to GovPT..."
+   - Navigate to the `GovPT` folder
    - **Select all folders**: `Database`, `Models`, `Services`, `Views`
    - Make sure "Copy items if needed" is **UNCHECKED**
    - Make sure "Create groups" is **SELECTED**
-   - Make sure "Add to targets: GPT" is **CHECKED** ✅
+   - Make sure "Add to targets: GovPT" is **CHECKED** ✅
    - Click "Add"
 
 3. **Build**:
@@ -59,7 +59,7 @@ For each file that won't compile:
 
 1. Click on the file in Project Navigator (e.g., `DatabaseManager.swift`)
 2. Open File Inspector (right sidebar, first tab, or press `⌥⌘1`)
-3. Under "Target Membership", make sure **"GPT" is checked** ✅
+3. Under "Target Membership", make sure **"GovPT" is checked** ✅
 4. Repeat for all files in Database/, Models/, Services/, Views/
 
 ---
@@ -96,8 +96,8 @@ After adding files, verify in Xcode:
 
 1. **Project Navigator** (⌘1): You should see all folders with files:
    ```
-   GPT/
-   ├── GPTApp.swift ✅
+   GovPT/
+   ├── GovPTApp.swift ✅
    ├── ContentView.swift ✅
    ├── Database/
    │   └── DatabaseManager.swift ✅
@@ -127,7 +127,7 @@ After adding files, verify in Xcode:
 
 ## Why This Happened
 
-When I created the files using command-line tools, they were created on disk but not registered in the Xcode project file (`GPT.xcodeproj/project.pbxproj`).
+When I created the files using command-line tools, they were created on disk but not registered in the Xcode project file (`GovPT.xcodeproj/project.pbxproj`).
 
 Xcode needs files to be explicitly added to the project target for them to be compiled.
 
@@ -143,24 +143,24 @@ gem install xcodeproj
 # Then use this Ruby script to add files
 ruby << 'EOF'
 require 'xcodeproj'
-project = Xcodeproj::Project.open('GPT.xcodeproj')
+project = Xcodeproj::Project.open('GovPT.xcodeproj')
 target = project.targets.first
 
 files = [
-  'GPT/Database/DatabaseManager.swift',
-  'GPT/Models/Region.swift',
-  'GPT/Models/Officeholder.swift',
-  'GPT/Models/Promise.swift',
-  'GPT/Models/Evidence.swift',
-  'GPT/Models/StatusSnapshot.swift',
-  'GPT/Models/Industry.swift',
-  'GPT/Services/SearchService.swift',
-  'GPT/Services/GeoService.swift',
-  'GPT/Views/HomeMapView.swift',
-  'GPT/Views/CountryView.swift',
-  'GPT/Views/PromisesListView.swift',
-  'GPT/Views/PromiseDetailView.swift',
-  'GPT/Views/SearchView.swift'
+  'GovPT/Database/DatabaseManager.swift',
+  'GovPT/Models/Region.swift',
+  'GovPT/Models/Officeholder.swift',
+  'GovPT/Models/Promise.swift',
+  'GovPT/Models/Evidence.swift',
+  'GovPT/Models/StatusSnapshot.swift',
+  'GovPT/Models/Industry.swift',
+  'GovPT/Services/SearchService.swift',
+  'GovPT/Services/GeoService.swift',
+  'GovPT/Views/HomeMapView.swift',
+  'GovPT/Views/CountryView.swift',
+  'GovPT/Views/PromisesListView.swift',
+  'GovPT/Views/PromiseDetailView.swift',
+  'GovPT/Views/SearchView.swift'
 ]
 
 files.each do |file_path|

@@ -187,7 +187,7 @@ if __name__ == "__main__":
     print("Generating complete seed data...")
     data = generate_complete_data()
 
-    output_file = "../GPT/Resources/seed_data.json"
+    output_file = "../GovPT/Resources/seed_data.json"
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=2)
 

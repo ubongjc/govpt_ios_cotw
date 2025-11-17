@@ -2,7 +2,7 @@
 import json
 
 # Read the existing seed data
-with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'r') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'r') as f:
     data = json.load(f)
 
 # Define transitions - old governors to end and new governors to add
@@ -128,7 +128,7 @@ data['officeholders'].extend(new_governors)
 changes.append(f"Added {len(new_governors)} new governors")
 
 # Write back to the file
-with open('/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json', 'w') as f:
+with open('/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
 print("Changes made:")

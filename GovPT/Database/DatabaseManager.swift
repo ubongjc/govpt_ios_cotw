@@ -29,7 +29,7 @@ class DatabaseManager: ObservableObject {
                 appropriateFor: nil,
                 create: true
             )
-            let dbPath = documentsPath.appendingPathComponent("gpt.sqlite")
+            let dbPath = documentsPath.appendingPathComponent("govpt.sqlite")
 
             dbQueue = try DatabaseQueue(path: dbPath.path)
 

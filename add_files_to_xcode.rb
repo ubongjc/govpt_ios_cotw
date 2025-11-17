@@ -4,7 +4,7 @@ require 'xcodeproj'
 puts "🔧 Adding missing files to Xcode project..."
 puts ""
 
-project_path = 'GPT.xcodeproj'
+project_path = 'GovPT.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 target = project.targets.first
 
@@ -13,20 +13,20 @@ puts ""
 
 # Files to add (relative to project root)
 files_to_add = [
-  'GPT/Database/DatabaseManager.swift',
-  'GPT/Models/Region.swift',
-  'GPT/Models/Officeholder.swift',
-  'GPT/Models/Promise.swift',
-  'GPT/Models/Evidence.swift',
-  'GPT/Models/StatusSnapshot.swift',
-  'GPT/Models/Industry.swift',
-  'GPT/Services/SearchService.swift',
-  'GPT/Services/GeoService.swift',
-  'GPT/Views/HomeMapView.swift',
-  'GPT/Views/CountryView.swift',
-  'GPT/Views/PromisesListView.swift',
-  'GPT/Views/PromiseDetailView.swift',
-  'GPT/Views/SearchView.swift'
+  'GovPT/Database/DatabaseManager.swift',
+  'GovPT/Models/Region.swift',
+  'GovPT/Models/Officeholder.swift',
+  'GovPT/Models/Promise.swift',
+  'GovPT/Models/Evidence.swift',
+  'GovPT/Models/StatusSnapshot.swift',
+  'GovPT/Models/Industry.swift',
+  'GovPT/Services/SearchService.swift',
+  'GovPT/Services/GeoService.swift',
+  'GovPT/Views/HomeMapView.swift',
+  'GovPT/Views/CountryView.swift',
+  'GovPT/Views/PromisesListView.swift',
+  'GovPT/Views/PromiseDetailView.swift',
+  'GovPT/Views/SearchView.swift'
 ]
 
 added_count = 0
@@ -81,6 +81,6 @@ puts "Skipped: #{skipped_count} files (already in target)"
 puts ""
 puts "🚀 Now try building in Xcode:"
 puts "   cd /Users/ubongjosiah/gpt_iphone"
-puts "   open GPT.xcodeproj"
+puts "   open GovPT.xcodeproj"
 puts "   # Press ⌘B to build"
 puts ""

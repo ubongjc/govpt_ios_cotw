@@ -1579,7 +1579,7 @@ def main():
     data["policyTags"] = generate_policy_tags()
 
     # Write to file
-    output_file = "GPT/Resources/seed_data.json"
+    output_file = "GovPT/Resources/seed_data.json"
     print(f"\nWriting to {output_file}...")
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)

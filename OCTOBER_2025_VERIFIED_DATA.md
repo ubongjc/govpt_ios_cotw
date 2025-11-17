@@ -35,7 +35,7 @@ All data has been **web-verified** on October 30, 2025 using live web searches.
 
 ### Generated: October 30, 2025
 
-**File**: `GPT/Resources/seed_data.json` (196 KB)
+**File**: `GovPT/Resources/seed_data.json` (196 KB)
 
 | Category | Count | Status |
 |----------|-------|--------|
@@ -158,7 +158,7 @@ Based on web-verified sources from April-October 2025:
 
 ```bash
 cd /Users/ubongjosiah/gpt_iphone
-open GPT.xcodeproj
+open GovPT.xcodeproj
 
 # In Xcode:
 # 1. Select iPhone 15 Pro simulator
@@ -201,8 +201,8 @@ open GPT.xcodeproj
 | File | Status | Change |
 |------|--------|--------|
 | `Scripts/world_leaders_2025.json` | ✅ Updated | Mark Carney, Merz, Lecornu, Takaichi |
-| `GPT/Resources/seed_data.json` | ✅ Regenerated | All leaders updated |
-| `GPT/Resources/seed_data_OLD_INCORRECT.json` | 📦 Backup | Old Trudeau version saved |
+| `GovPT/Resources/seed_data.json` | ✅ Regenerated | All leaders updated |
+| `GovPT/Resources/seed_data_OLD_INCORRECT.json` | 📦 Backup | Old Trudeau version saved |
 
 ---
 

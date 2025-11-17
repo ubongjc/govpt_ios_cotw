@@ -75,7 +75,7 @@ struct SearchView: View {
             Image(systemName: "magnifyingglass")
                 .font(.system(size: 60))
                 .foregroundStyle(.secondary)
-            Text("Search GPT")
+            Text("Search GovPT")
                 .font(.title2)
                 .fontWeight(.bold)
             Text("Find promises, regions, and leaders")

@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 
 # Read the North America data
-with open('GPT/Resources/seed_data_north_america.json', 'r') as f:
+with open('GovPT/Resources/seed_data_north_america.json', 'r') as f:
     data = json.load(f)
 
 # Add remaining US state governors (as of 2024)
@@ -698,8 +698,8 @@ print(f"Total officeholders: {len(data['officeholders'])}")
 print(f"Total promises: {len(data['promises'])}")
 
 # Save the complete dataset
-with open('GPT/Resources/seed_data.json', 'w') as f:
+with open('GovPT/Resources/seed_data.json', 'w') as f:
     json.dump(data, f, indent=2)
 
 print("\nSeed data has been updated with comprehensive North American data!")
-print("The file has been saved to GPT/Resources/seed_data.json")
+print("The file has been saved to GovPT/Resources/seed_data.json")

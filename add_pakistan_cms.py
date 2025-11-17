@@ -9,7 +9,7 @@ import sys
 from datetime import datetime
 
 # Path to seed_data.json
-SEED_DATA_PATH = "/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json"
+SEED_DATA_PATH = "/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json"
 
 # Pakistani Chief Ministers and leaders (as of 2024-2025)
 PAKISTANI_LEADERS = [

@@ -15,7 +15,7 @@ You have a **fully working iOS app** with:
 
 ```bash
 cd /Users/ubongjosiah/gpt_iphone
-open GPT.xcodeproj
+open GovPT.xcodeproj
 
 # In Xcode:
 # 1. Select iPhone 15 Pro simulator

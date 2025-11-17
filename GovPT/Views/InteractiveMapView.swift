@@ -496,7 +496,7 @@ class InteractiveMapViewModel: ObservableObject {
         if let last = navigationPath.last {
             return last.name
         }
-        return "GPT"
+        return "GovPT"
     }
 
     func loadInitialData(defaultRegionId: String?) {

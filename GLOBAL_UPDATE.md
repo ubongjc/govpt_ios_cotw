@@ -142,7 +142,7 @@ Example: Add promises for Joe Biden, Modi, Macron, etc. by adding entries to the
 
 ## How to Test
 
-1. **Open GPT.xcodeproj** in Xcode
+1. **Open GovPT.xcodeproj** in Xcode
 2. **Build & Run** (⌘R)
 3. **On the map screen:**
    - Scroll the bottom carousel to see all 6 continents

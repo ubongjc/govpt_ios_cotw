@@ -1,5 +1,5 @@
 //
-//  GPTApp.swift
+//  GovPTApp.swift
 //  Government Promises Tracker
 //
 //  Created by Claude Code
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct GPTApp: App {
+struct GovPTApp: App {
     @StateObject private var database = DatabaseManager.shared
     @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
 

@@ -4,7 +4,7 @@ require 'xcodeproj'
 puts "🔗 Linking GRDB package to target..."
 puts ""
 
-project_path = 'GPT.xcodeproj'
+project_path = 'GovPT.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 target = project.targets.first
 
@@ -101,5 +101,5 @@ puts "✅ COMPLETE! GRDB package linked to target"
 puts "=" * 60
 puts ""
 puts "🚀 Now try building:"
-puts "   xcodebuild -project GPT.xcodeproj -scheme GPT -sdk iphonesimulator build"
+puts "   xcodebuild -project GovPT.xcodeproj -scheme GovPT -sdk iphonesimulator build"
 puts ""

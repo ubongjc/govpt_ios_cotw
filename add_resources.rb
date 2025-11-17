@@ -4,30 +4,30 @@ require 'xcodeproj'
 puts "📦 Adding resource files to Xcode project..."
 puts ""
 
-project_path = 'GPT.xcodeproj'
+project_path = 'GovPT.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 target = project.targets.first
 
 puts "Target: #{target.name}"
 puts ""
 
-# Find the GPT group
-gpt_group = project.main_group.children.find { |child| child.display_name == 'GPT' }
+# Find the GovPT group
+gpt_group = project.main_group.children.find { |child| child.display_name == 'GovPT' }
 
 if !gpt_group
-  puts "❌ Could not find GPT group!"
+  puts "❌ Could not find GovPT group!"
   exit 1
 end
 
 # Find or create Resources group
 resources_group = gpt_group.children.find { |child| child.display_name == 'Resources' }
 if !resources_group
-  resources_group = gpt_group.new_group('Resources', 'GPT/Resources')
+  resources_group = gpt_group.new_group('Resources', 'GovPT/Resources')
   puts "✅ Created Resources group"
 end
 
 # Add seed_data.json
-seed_data_path = 'GPT/Resources/seed_data.json'
+seed_data_path = 'GovPT/Resources/seed_data.json'
 existing_ref = project.main_group.find_file_by_path(seed_data_path)
 
 if existing_ref

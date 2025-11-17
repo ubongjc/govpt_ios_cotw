@@ -150,7 +150,7 @@ def main():
     """Main function to add Thai governors to seed_data.json"""
 
     # Read the existing seed_data.json
-    seed_file = "/Users/ubongjosiah/gpt_iphone/GPT/Resources/seed_data.json"
+    seed_file = "/Users/ubongjosiah/gpt_iphone/GovPT/Resources/seed_data.json"
 
     print(f"Reading {seed_file}...")
     with open(seed_file, 'r', encoding='utf-8') as f:

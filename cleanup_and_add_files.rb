@@ -4,7 +4,7 @@ require 'xcodeproj'
 puts "🧹 Cleaning up and re-adding files to Xcode project..."
 puts ""
 
-project_path = 'GPT.xcodeproj'
+project_path = 'GovPT.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 target = project.targets.first
 
@@ -82,11 +82,11 @@ files_to_add = [
   'Views/SearchView.swift'
 ]
 
-# Find the GPT group
-gpt_group = project.main_group.children.find { |child| child.display_name == 'GPT' }
+# Find the GovPT group
+gpt_group = project.main_group.children.find { |child| child.display_name == 'GovPT' }
 
 if !gpt_group
-  puts "❌ Could not find GPT group!"
+  puts "❌ Could not find GovPT group!"
   exit 1
 end
 
@@ -120,5 +120,5 @@ puts "✅ COMPLETE! Project cleaned and files added correctly"
 puts "=" * 60
 puts ""
 puts "🚀 Now build:"
-puts "   xcodebuild -project GPT.xcodeproj -scheme GPT -sdk iphonesimulator build"
+puts "   xcodebuild -project GovPT.xcodeproj -scheme GovPT -sdk iphonesimulator build"
 puts ""

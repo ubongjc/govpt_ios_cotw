@@ -10,7 +10,7 @@ I've successfully generated **complete comprehensive seed data** for your Govern
 
 ### Generated on: January 30, 2025
 
-**File**: `GPT/Resources/seed_data.json` (200 KB)
+**File**: `GovPT/Resources/seed_data.json` (200 KB)
 
 ### Contents:
 
@@ -218,7 +218,7 @@ Complete list with current premiers (2025):
 
 ```bash
 cd /Users/ubongjosiah/gpt_iphone
-open GPT.xcodeproj
+open GovPT.xcodeproj
 
 # In Xcode:
 # 1. Select iPhone 15 Pro simulator
@@ -230,14 +230,14 @@ open GPT.xcodeproj
 
 ```bash
 # Check file size
-ls -lh GPT/Resources/seed_data.json
+ls -lh GovPT/Resources/seed_data.json
 
 # View data structure
-head -50 GPT/Resources/seed_data.json
+head -50 GovPT/Resources/seed_data.json
 
 # Search for specific promises
-grep "Trump" GPT/Resources/seed_data.json
-grep "Trudeau" GPT/Resources/seed_data.json
+grep "Trump" GovPT/Resources/seed_data.json
+grep "Trudeau" GovPT/Resources/seed_data.json
 ```
 
 ---
@@ -324,7 +324,7 @@ HomeMapView (World Map)
 
 | File | Purpose | Size |
 |------|---------|------|
-| `GPT/Resources/seed_data.json` | Complete seed data | 200 KB |
+| `GovPT/Resources/seed_data.json` | Complete seed data | 200 KB |
 | `Scripts/generate_comprehensive_data.py` | Data generator script | 45 KB |
 | `Scripts/world_leaders_2025.json` | All 195 world leaders | 15 KB |
 | `COMPLETE_DATA_READY.md` | This summary | 10 KB |
@@ -374,7 +374,7 @@ You asked for:
 ### Immediate:
 
 1. **Build and run the app**
-   - Open `GPT.xcodeproj` in Xcode
+   - Open `GovPT.xcodeproj` in Xcode
    - Select iPhone simulator
    - Press ⌘R to build and run
    - Test navigation through countries and promises

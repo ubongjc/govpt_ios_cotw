@@ -3,11 +3,11 @@ import json
 from datetime import datetime
 
 # Read the backup file (has other continents)
-with open('GPT/Resources/seed_data_backup.json', 'r') as f:
+with open('GovPT/Resources/seed_data_backup.json', 'r') as f:
     backup_data = json.load(f)
 
 # Read the current North America focused file
-with open('GPT/Resources/seed_data.json', 'r') as f:
+with open('GovPT/Resources/seed_data.json', 'r') as f:
     north_america_data = json.load(f)
 
 # Create a merged dataset
@@ -827,8 +827,8 @@ print(f"Total officeholders: {len(merged_data['officeholders'])}")
 print(f"Total promises: {len(merged_data['promises'])}")
 
 # Save the complete world dataset
-with open('GPT/Resources/seed_data.json', 'w') as f:
+with open('GovPT/Resources/seed_data.json', 'w') as f:
     json.dump(merged_data, f, indent=2)
 
 print("\n✅ Successfully merged all world data!")
-print("The complete dataset has been saved to GPT/Resources/seed_data.json")
+print("The complete dataset has been saved to GovPT/Resources/seed_data.json")

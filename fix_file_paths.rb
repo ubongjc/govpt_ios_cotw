@@ -4,7 +4,7 @@ require 'xcodeproj'
 puts "🔧 Fixing file paths in Xcode project..."
 puts ""
 
-project_path = 'GPT.xcodeproj'
+project_path = 'GovPT.xcodeproj'
 project = Xcodeproj::Project.open(project_path)
 target = project.targets.first
 
@@ -16,7 +16,7 @@ target.source_build_phase.files.each do |build_file|
   file_ref = build_file.file_ref
   next unless file_ref
 
-  if file_ref.path && file_ref.path.include?('GPT/GPT/')
+  if file_ref.path && file_ref.path.include?('GovPT/GovPT/')
     puts "❌ Removing incorrectly added: #{file_ref.path}"
     build_file.remove_from_project
   end
@@ -24,7 +24,7 @@ end
 
 # Also remove the file references
 project.main_group.recursive_children.each do |item|
-  if item.is_a?(Xcodeproj::Project::Object::PBXFileReference) && item.path && item.path.include?('GPT/GPT/')
+  if item.is_a?(Xcodeproj::Project::Object::PBXFileReference) && item.path && item.path.include?('GovPT/GovPT/')
     puts "🗑️  Removing bad reference: #{item.path}"
     item.remove_from_project
   end
@@ -48,11 +48,11 @@ files_to_add = [
   'Views/SearchView.swift'
 ]
 
-# Find the GPT group
-gpt_group = project.main_group.children.find { |child| child.display_name == 'GPT' }
+# Find the GovPT group
+gpt_group = project.main_group.children.find { |child| child.display_name == 'GovPT' }
 
 if !gpt_group
-  puts "❌ Could not find GPT group!"
+  puts "❌ Could not find GovPT group!"
   exit 1
 end
 
@@ -86,5 +86,5 @@ puts "✅ COMPLETE! File paths fixed"
 puts "=" * 60
 puts ""
 puts "🚀 Now build in Xcode or run:"
-puts "   xcodebuild -project GPT.xcodeproj -scheme GPT -sdk iphonesimulator build"
+puts "   xcodebuild -project GovPT.xcodeproj -scheme GovPT -sdk iphonesimulator build"
 puts ""
